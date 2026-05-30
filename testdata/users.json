@@ -1,0 +1,21 @@
+{
+  "customer": {
+    "name": "Test Customer",
+    "email": "testcustomer@shopcart.test",
+    "password": "Customer@Pass123"
+  },
+  "seller": {
+    "name": "Test Seller",
+    "email": "testseller@shopcart.test",
+    "password": "Seller@Pass123",
+    "shopName": "Test Shop"
+  },
+  "invalid": {
+    "email": "nouser@shopcart.test",
+    "password": "WrongPass@123",
+    "badEmailFormat": "not-an-email",
+    "shortPassword": "Ab@1",
+    "noUppercase": "lowercase@pass1",
+    "noSpecial": "Lowercase1pass"
+  }
+}

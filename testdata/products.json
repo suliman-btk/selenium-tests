@@ -1,0 +1,14 @@
+{
+  "sampleProduct": {
+    "productName": "Selenium Test Product",
+    "price": "199",
+    "subcategory": "TestSubcat",
+    "productImage": "https://via.placeholder.com/150",
+    "category": "Electronics",
+    "description": "Product created by Selenium test",
+    "mrp": "299",
+    "cost": "199",
+    "discountPercent": "33",
+    "tagline": "Auto test tagline"
+  }
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ShopCart E2E Suite" verbose="1">
+
+    <test name="auth-validation">
+        <classes>
+            <class name="com.shopcart.tests.F1_SignUpTest"/>
+            <class name="com.shopcart.tests.F2_SignInTest"/>
+        </classes>
+    </test>
+
+    <test name="customer-flow">
+        <classes>
+            <class name="com.shopcart.tests.F3_SearchByNameTest"/>
+            <class name="com.shopcart.tests.F4_SearchByCategoryTest"/>
+            <class name="com.shopcart.tests.F5_AddToCartTest"/>
+            <class name="com.shopcart.tests.F6_AddShippingAddressTest"/>
+            <class name="com.shopcart.tests.F7_AddReviewRatingTest"/>
+        </classes>
+    </test>
+
+    <test name="seller-flow">
+        <classes>
+            <class name="com.shopcart.tests.F8_AddProductTest"/>
+            <class name="com.shopcart.tests.F9_DeleteProductTest"/>
+            <class name="com.shopcart.tests.F10_EditProductTest"/>
+            <class name="com.shopcart.tests.F11_ViewProductsTest"/>
+            <class name="com.shopcart.tests.F12_DeleteCustomerReviewTest"/>
+            <class name="com.shopcart.tests.F13_ViewAddedToCartTest"/>
+            <class name="com.shopcart.tests.F14_ViewOutForDeliveryTest"/>
+        </classes>
+    </test>
+
+</suite>

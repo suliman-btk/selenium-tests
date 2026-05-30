@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">ShopCart E2E Suite</th></tr>
+<tr><td><a href="#t0">auth-validation</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">64,136</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">customer-flow</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">7</td><td class="num">166,348</td><td></td><td></td></tr>
+<tr><td><a href="#t2">seller-flow</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">7</td><td class="num">163,209</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">8</th><th class="num">0</th><th class="num">0</th><th class="num attn">17</th><th class="num">393,693</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ShopCart E2E Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">auth-validation &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.shopcart.tests.F1_SignUpTest</td><td><a href="#m0">customerSignupHappyPath</a></td><td rowspan="1">1780032547407</td><td rowspan="1">912</td></tr><tr class="failedeven"><td><a href="#m1">sellerSignupHappyPath</a></td><td rowspan="1">1780032561985</td><td rowspan="1">887</td></tr><tr class="failedodd"><td rowspan="1">com.shopcart.tests.F2_SignInTest</td><td><a href="#m2">customerLoginHappyPath</a></td><td rowspan="1">1780032568239</td><td rowspan="1">20679</td></tr><tr><th colspan="4">auth-validation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.shopcart.tests.F1_SignUpTest</td><td><a href="#m3">emptyEmail</a></td><td rowspan="1">1780032551653</td><td rowspan="1">657</td></tr><tr class="passedeven"><td><a href="#m4">emptyName</a></td><td rowspan="1">1780032555634</td><td rowspan="1">651</td></tr><tr class="passedeven"><td><a href="#m5">emptyPassword</a></td><td rowspan="1">1780032558701</td><td rowspan="1">566</td></tr><tr class="passedodd"><td rowspan="5">com.shopcart.tests.F2_SignInTest</td><td><a href="#m6">emptyEmail</a></td><td rowspan="1">1780032591977</td><td rowspan="1">476</td></tr><tr class="passedodd"><td><a href="#m7">emptyPassword</a></td><td rowspan="1">1780032594502</td><td rowspan="1">517</td></tr><tr class="passedodd"><td><a href="#m8">sellerLoginHappyPath</a></td><td rowspan="1">1780032597662</td><td rowspan="1">1375</td></tr><tr class="passedodd"><td><a href="#m9">unknownUser</a></td><td rowspan="1">1780032602150</td><td rowspan="1">1143</td></tr><tr class="passedodd"><td><a href="#m10">wrongPassword</a></td><td rowspan="1">1780032605892</td><td rowspan="1">956</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">customer-flow &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.shopcart.tests.F3_SearchByNameTest</td><td><a href="#m11">searchGibberish</a></td><td rowspan="1">1780032611047</td><td rowspan="1">20377</td></tr><tr class="failedeven"><td><a href="#m12">searchKnownProduct</a></td><td rowspan="1">1780032634775</td><td rowspan="1">20617</td></tr><tr class="failedodd"><td rowspan="1">com.shopcart.tests.F4_SearchByCategoryTest</td><td><a href="#m13">categoriesPopupOpens</a></td><td rowspan="1">1780032658401</td><td rowspan="1">20782</td></tr><tr class="failedeven"><td rowspan="1">com.shopcart.tests.F5_AddToCartTest</td><td><a href="#m14">addAsCustomer</a></td><td rowspan="1">1780032681771</td><td rowspan="1">21307</td></tr><tr class="failedodd"><td rowspan="2">com.shopcart.tests.F6_AddShippingAddressTest</td><td><a href="#m15">emptyShippingShowsErrors</a></td><td rowspan="1">1780032705764</td><td rowspan="1">21402</td></tr><tr class="failedodd"><td><a href="#m16">shippingHappyPath</a></td><td rowspan="1">1780032729411</td><td rowspan="1">21331</td></tr><tr class="failedeven"><td rowspan="1">com.shopcart.tests.F7_AddReviewRatingTest</td><td><a href="#m17">addReviewHappyPath</a></td><td rowspan="1">1780032752977</td><td rowspan="1">21298</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">seller-flow &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.shopcart.tests.F10_EditProductTest</td><td><a href="#m18">editProduct</a></td><td rowspan="1">1780032824312</td><td rowspan="1">21088</td></tr><tr class="failedodd"><td rowspan="1">com.shopcart.tests.F11_ViewProductsTest</td><td><a href="#m19">viewProducts</a></td><td rowspan="1">1780032847592</td><td rowspan="1">21050</td></tr><tr class="failedeven"><td rowspan="1">com.shopcart.tests.F12_DeleteCustomerReviewTest</td><td><a href="#m20">deleteReview</a></td><td rowspan="1">1780032870661</td><td rowspan="1">20955</td></tr><tr class="failedodd"><td rowspan="1">com.shopcart.tests.F13_ViewAddedToCartTest</td><td><a href="#m21">viewAddedToCart</a></td><td rowspan="1">1780032893702</td><td rowspan="1">20859</td></tr><tr class="failedeven"><td rowspan="1">com.shopcart.tests.F14_ViewOutForDeliveryTest</td><td><a href="#m22">viewOutForDelivery</a></td><td rowspan="1">1780032916718</td><td rowspan="1">20702</td></tr><tr class="failedodd"><td rowspan="1">com.shopcart.tests.F8_AddProductTest</td><td><a href="#m23">addProductHappyPath</a></td><td rowspan="1">1780032777730</td><td rowspan="1">21189</td></tr><tr class="failedeven"><td rowspan="1">com.shopcart.tests.F9_DeleteProductTest</td><td><a href="#m24">deleteProduct</a></td><td rowspan="1">1780032801259</td><td rowspan="1">21038</td></tr></tbody>
+</table>
+<h2>auth-validation</h2><h3 id="m0">com.shopcart.tests.F1_SignUpTest#customerSignupHappyPath</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected redirect away from /Customerregister after valid signup expected [true] but found [false]
+	at com.shopcart.tests.F1_SignUpTest.customerSignupHappyPath(F1_SignUpTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.shopcart.tests.F1_SignUpTest#sellerSignupHappyPath</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected redirect away from /Sellerregister after valid signup expected [true] but found [false]
+	at com.shopcart.tests.F1_SignUpTest.sellerSignupHappyPath(F1_SignUpTest.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.shopcart.tests.F2_SignInTest#customerLoginHappyPath</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected redirect away from /Customerlogin after valid login expected [true] but found [false]
+	at com.shopcart.tests.F2_SignInTest.customerLoginHappyPath(F2_SignInTest.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.shopcart.tests.F1_SignUpTest#emptyEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.shopcart.tests.F1_SignUpTest#emptyName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.shopcart.tests.F1_SignUpTest#emptyPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.shopcart.tests.F2_SignInTest#emptyEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.shopcart.tests.F2_SignInTest#emptyPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.shopcart.tests.F2_SignInTest#sellerLoginHappyPath</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.shopcart.tests.F2_SignInTest#unknownUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.shopcart.tests.F2_SignInTest#wrongPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>customer-flow</h2><h3 id="m11">com.shopcart.tests.F3_SearchByNameTest#searchGibberish</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[contains(@placeholder,&apos;Search&apos;) or @type=&apos;search&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62102}, goog:processID: 70608, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62102/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f60410f0a67683c4e0b3c54dc66b2b68
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.shopcart.utils.WaitUtils.waitVisible(WaitUtils.java:25)
+	at com.shopcart.pages.HomePage.search(HomePage.java:17)
+	at com.shopcart.tests.F3_SearchByNameTest.searchGibberish(F3_SearchByNameTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.shopcart.tests.F3_SearchByNameTest#searchKnownProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[contains(@placeholder,&apos;Search&apos;) or @type=&apos;search&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63798}, goog:processID: 71508, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63798/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4148b604caeaa3bda25a7b37b9939bff
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.shopcart.utils.WaitUtils.waitVisible(WaitUtils.java:25)
+	at com.shopcart.pages.HomePage.search(HomePage.java:17)
+	at com.shopcart.tests.F3_SearchByNameTest.searchKnownProduct(F3_SearchByNameTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.shopcart.tests.F4_SearchByCategoryTest#categoriesPopupOpens</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected at least one known category to render expected [true] but found [false]
+	at com.shopcart.tests.F4_SearchByCategoryTest.categoriesPopupOpens(F4_SearchByCategoryTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.shopcart.tests.F5_AddToCartTest#addAsCustomer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(@href,&apos;/product/view/&apos;)])[1] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50127}, goog:processID: 69644, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50127/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd0785c58e30d537fd3a645f598fc9fb
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
+	at com.shopcart.pages.ProductListPage.openFirstProduct(ProductListPage.java:18)
+	at com.shopcart.tests.F5_AddToCartTest.addAsCustomer(F5_AddToCartTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.shopcart.tests.F6_AddShippingAddressTest#emptyShippingShowsErrors</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(text(),&apos;Next&apos;) or contains(text(),&apos;NEXT&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51004}, goog:processID: 69780, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51004/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d5d9e3f9f93b245dd1337fdc20ebd50
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
+	at com.shopcart.pages.CheckoutShippingPage.submitEmpty(CheckoutShippingPage.java:31)
+	at com.shopcart.tests.F6_AddShippingAddressTest.emptyShippingShowsErrors(F6_AddShippingAddressTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.shopcart.tests.F6_AddShippingAddressTest#shippingHappyPath</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //label[contains(text(),&apos;Address&apos;)]/following::input[1] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60667}, goog:processID: 72444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60667/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fd9b821ff1340f843ddec45df02a218
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.shopcart.utils.WaitUtils.waitVisible(WaitUtils.java:25)
+	at com.shopcart.pages.CheckoutShippingPage.fillAll(CheckoutShippingPage.java:21)
+	at com.shopcart.tests.F6_AddShippingAddressTest.shippingHappyPath(F6_AddShippingAddressTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.shopcart.tests.F7_AddReviewRatingTest#addReviewHappyPath</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //textarea | //input[@name=&apos;review&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62907}, goog:processID: 68912, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62907/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2497c97c8bac49dabff70991badcbcfe
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.shopcart.utils.WaitUtils.waitVisible(WaitUtils.java:25)
+	at com.shopcart.pages.ReviewPage.writeReview(ReviewPage.java:16)
+	at com.shopcart.tests.F7_AddReviewRatingTest.addReviewHappyPath(F7_AddReviewRatingTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>seller-flow</h2><h3 id="m18">com.shopcart.tests.F10_EditProductTest#editProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),&apos;Products&apos;) or contains(text(),&apos;Show Products&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61205}, goog:processID: 68316, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61205/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d67891363985030a8c05e31154334d6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
+	at com.shopcart.pages.SellerDashboardPage.gotoProducts(SellerDashboardPage.java:18)
+	at com.shopcart.tests.F10_EditProductTest.editProduct(F10_EditProductTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.shopcart.tests.F11_ViewProductsTest#viewProducts</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),&apos;Products&apos;) or contains(text(),&apos;Show Products&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53672}, goog:processID: 72560, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53672/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18995a3f6ad527012fe99590ded788eb
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
+	at com.shopcart.pages.SellerDashboardPage.gotoProducts(SellerDashboardPage.java:18)
+	at com.shopcart.tests.F11_ViewProductsTest.viewProducts(F11_ViewProductsTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">com.shopcart.tests.F12_DeleteCustomerReviewTest#deleteReview</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),&apos;Products&apos;) or contains(text(),&apos;Show Products&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59361}, goog:processID: 61844, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59361/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d74d3f84a5ea25c60f36a786414ce8f6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
+	at com.shopcart.pages.SellerDashboardPage.gotoProducts(SellerDashboardPage.java:18)
+	at com.shopcart.tests.F12_DeleteCustomerReviewTest.deleteReview(F12_DeleteCustomerReviewTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">com.shopcart.tests.F13_ViewAddedToCartTest#viewAddedToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),&apos;Orders&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51358}, goog:processID: 73692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51358/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2072241dc2bba4ea7d5d940ba111775d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
+	at com.shopcart.pages.SellerDashboardPage.gotoOrders(SellerDashboardPage.java:24)
+	at com.shopcart.tests.F13_ViewAddedToCartTest.viewAddedToCart(F13_ViewAddedToCartTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">com.shopcart.tests.F14_ViewOutForDeliveryTest#viewOutForDelivery</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),&apos;Orders&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56992}, goog:processID: 73180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56992/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59fcbd764568492304e15024fba807a0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
+	at com.shopcart.pages.SellerDashboardPage.gotoOrders(SellerDashboardPage.java:24)
+	at com.shopcart.tests.F14_ViewOutForDeliveryTest.viewOutForDelivery(F14_ViewOutForDeliveryTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">com.shopcart.tests.F8_AddProductTest#addProductHappyPath</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),&apos;Add Product&apos;) or contains(text(),&apos;ADD PRODUCT&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54080}, goog:processID: 73312, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54080/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8767f033580f7db9121a42bce345bed4
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
+	at com.shopcart.pages.SellerDashboardPage.gotoAddProduct(SellerDashboardPage.java:12)
+	at com.shopcart.tests.F8_AddProductTest.addProductHappyPath(F8_AddProductTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">com.shopcart.tests.F9_DeleteProductTest#deleteProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),&apos;Products&apos;) or contains(text(),&apos;Show Products&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58611}, goog:processID: 69664, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58611/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fb2aa188809b42d42a00568ee93a10e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
+	at com.shopcart.pages.SellerDashboardPage.gotoProducts(SellerDashboardPage.java:18)
+	at com.shopcart.tests.F9_DeleteProductTest.deleteProduct(F9_DeleteProductTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

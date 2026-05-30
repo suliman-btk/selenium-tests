@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ShopCart E2E Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="auth-validation(failed)" verbose="0">
+    <classes>
+      <class name="com.shopcart.tests.F2_SignInTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="flushReport"/>
+          <include name="setUp"/>
+          <include name="initReport"/>
+          <include name="customerLoginHappyPath"/>
+        </methods>
+      </class> <!-- com.shopcart.tests.F2_SignInTest -->
+      <class name="com.shopcart.tests.F1_SignUpTest">
+        <methods>
+          <include name="customerSignupHappyPath"/>
+          <include name="tearDown"/>
+          <include name="flushReport"/>
+          <include name="sellerSignupHappyPath"/>
+          <include name="setUp"/>
+          <include name="initReport"/>
+        </methods>
+      </class> <!-- com.shopcart.tests.F1_SignUpTest -->
+    </classes>
+  </test> <!-- auth-validation(failed) -->
+  <test thread-count="5" name="customer-flow(failed)" verbose="0">
+    <classes>
+      <class name="com.shopcart.tests.F7_AddReviewRatingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="flushReport"/>
+          <include name="setUp"/>
+          <include name="addReviewHappyPath"/>
+          <include name="initReport"/>
+        </methods>
+      </class> <!-- com.shopcart.tests.F7_AddReviewRatingTest -->
+      <class name="com.shopcart.tests.F5_AddToCartTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="flushReport"/>
+          <include name="setUp"/>
+          <include name="initReport"/>
+          <include name="addAsCustomer"/>
+        </methods>
+      </class> <!-- com.shopcart.tests.F5_AddToCartTest -->
+      <class name="com.shopcart.tests.F3_SearchByNameTest">
+        <methods>
+          <include name="searchKnownProduct"/>
+          <include name="tearDown"/>
+          <include name="flushReport"/>
+          <include name="searchGibberish"/>
+          <include name="setUp"/>
+          <include name="initReport"/>
+        </methods>
+      </class> <!-- com.shopcart.tests.F3_SearchByNameTest -->
+      <class name="com.shopcart.tests.F4_SearchByCategoryTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="flushReport"/>
+          <include name="setUp"/>
+          <include name="categoriesPopupOpens"/>
+          <include name="initReport"/>
+        </methods>
+      </class> <!-- com.shopcart.tests.F4_SearchByCategoryTest -->
+      <class name="com.shopcart.tests.F6_AddShippingAddressTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="shippingHappyPath"/>
+          <include name="flushReport"/>
+          <include name="emptyShippingShowsErrors"/>
+          <include name="setUp"/>
+          <include name="initReport"/>
+        </methods>
+      </class> <!-- com.shopcart.tests.F6_AddShippingAddressTest -->
+    </classes>
+  </test> <!-- customer-flow(failed) -->
+  <test thread-count="5" name="seller-flow(failed)" verbose="0">
+    <classes>
+      <class name="com.shopcart.tests.F11_ViewProductsTest">
+        <methods>
+          <include name="viewProducts"/>
+          <include name="tearDown"/>
+          <include name="flushReport"/>
+          <include name="setUp"/>
+          <include name="initReport"/>
+        </methods>
+      </class> <!-- com.shopcart.tests.F11_ViewProductsTest -->
+      <class name="com.shopcart.tests.F8_AddProductTest">
+        <methods>
+          <include name="addProductHappyPath"/>
+          <include name="tearDown"/>
+          <include name="flushReport"/>
+          <include name="setUp"/>
+          <include name="initReport"/>
+        </methods>
+      </class> <!-- com.shopcart.tests.F8_AddProductTest -->
+      <class name="com.shopcart.tests.F10_EditProductTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="flushReport"/>
+          <include name="setUp"/>
+          <include name="editProduct"/>
+          <include name="initReport"/>
+        </methods>
+      </class> <!-- com.shopcart.tests.F10_EditProductTest -->
+      <class name="com.shopcart.tests.F13_ViewAddedToCartTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="flushReport"/>
+          <include name="setUp"/>
+          <include name="viewAddedToCart"/>
+          <include name="initReport"/>
+        </methods>
+      </class> <!-- com.shopcart.tests.F13_ViewAddedToCartTest -->
+      <class name="com.shopcart.tests.F9_DeleteProductTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="flushReport"/>
+          <include name="deleteProduct"/>
+          <include name="setUp"/>
+          <include name="initReport"/>
+        </methods>
+      </class> <!-- com.shopcart.tests.F9_DeleteProductTest -->
+      <class name="com.shopcart.tests.F12_DeleteCustomerReviewTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="deleteReview"/>
+          <include name="flushReport"/>
+          <include name="setUp"/>
+          <include name="initReport"/>
+        </methods>
+      </class> <!-- com.shopcart.tests.F12_DeleteCustomerReviewTest -->
+      <class name="com.shopcart.tests.F14_ViewOutForDeliveryTest">
+        <methods>
+          <include name="viewOutForDelivery"/>
+          <include name="tearDown"/>
+          <include name="flushReport"/>
+          <include name="setUp"/>
+          <include name="initReport"/>
+        </methods>
+      </class> <!-- com.shopcart.tests.F14_ViewOutForDeliveryTest -->
+    </classes>
+  </test> <!-- seller-flow(failed) -->
+</suite> <!-- Failed suite [ShopCart E2E Suite] -->

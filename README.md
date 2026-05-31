@@ -1,116 +1,218 @@
-# ShopCart Selenium Test Automation Tool
+# ShopCart Selenium Test Suite — Run Guide
 
-End-to-end functional tests for the ShopCart MERN e-commerce app. Maps every test directly to SRS requirement IDs (`REQ_F###`, `REQ_IO###`) so assignment deliverables (Test Case Spec, Test Log, Test Summary, Test Incident Report) can be filled straight from the generated HTML report.
+End-to-end functional tests for the ShopCart MERN e-commerce app.  
+Maps to SRS requirement IDs (`REQ_F###`, `REQ_IO###`).
 
-## Stack
-
-- Java 17 + Maven
-- Selenium 4
-- TestNG 7
-- WebDriverManager (auto driver setup)
-- ExtentReports (HTML report with screenshots on failure)
-- Jackson (test data JSON)
+---
 
 ## Prerequisites
 
-- JDK 17+
-- Maven 3.8+
-- Chrome 120+ installed (default). Edge / Firefox supported.
-- MERN app running locally:
-  - Terminal A: `cd backend && npm install && npm start` → http://localhost:5000
-  - Terminal B: `cd frontend && npm install && npm start` → http://localhost:3000
+| Tool | Version | Check |
+|------|---------|-------|
+| Java JDK | 17+ | `java --version` |
+| Node.js | 16+ | `node --version` |
+| MongoDB | running locally | `mongod` service |
+| Google Chrome | any recent | installed |
+| Maven | 3.8+ | `mvn --version` |
 
-## Seed Test Users
+> **No Maven installed?** A bundled copy is at `.maven/apache-maven-3.9.16/bin/mvn.cmd`  
+> Use it like: `.\.maven\apache-maven-3.9.16\bin\mvn.cmd clean test`
 
-Before first run, register one customer + one seller through the UI (or POST to backend) matching `testdata/users.json`:
+---
+
+## Step 1 — Start the MERN App
+
+Open **two separate terminals**.
+
+**Terminal A — Backend (port 5000)**
+```bash
+cd MERN-Ecommerce-Site/backend
+npm install
+npm start
+```
+
+**Terminal B — Frontend (port 3000)**
+```bash
+cd MERN-Ecommerce-Site/frontend
+npm install
+npm start
+```
+
+Wait until both are ready:
+- Backend: `Server started at port no. 5000`
+- Frontend: browser opens at `http://localhost:3000`
+
+---
+
+## Step 2 — Seed the Database (first run only)
+
+Run this once before the first test execution. Copy-paste into PowerShell:
+
+```powershell
+# Register test customer
+Invoke-RestMethod -Uri "http://localhost:5000/CustomerRegister" `
+  -Method POST -ContentType "application/json" `
+  -Body '{"name":"Test Customer","email":"testcustomer@shopcart.test","password":"Customer@Pass123"}'
+
+# Register test seller
+Invoke-RestMethod -Uri "http://localhost:5000/SellerRegister" `
+  -Method POST -ContentType "application/json" `
+  -Body '{"name":"Test Seller","email":"testseller@shopcart.test","password":"Seller@Pass123","shopName":"Test Shop"}'
+```
+
+Then seed products (run from `MERN-Ecommerce-Site/backend`):
+
+```powershell
+# Get seller ID + token
+$s = Invoke-RestMethod -Uri "http://localhost:5000/SellerLogin" `
+  -Method POST -ContentType "application/json" `
+  -Body '{"email":"testseller@shopcart.test","password":"Seller@Pass123"}'
+
+# Create 4 test products
+1..4 | ForEach-Object {
+  $body = @{
+    productName   = "Test Product $_"
+    price         = @{ mrp = 299; cost = 199; discountPercent = 33 }
+    subcategory   = "TestSubcat"
+    productImage  = "https://placehold.co/300x300?text=Product"
+    category      = "Electronics"
+    description   = "Seed product $_"
+    tagline       = "Seed tagline"
+    quantity      = 10
+    seller        = $s._id
+  } | ConvertTo-Json
+  Invoke-RestMethod -Uri "http://localhost:5000/ProductCreate" `
+    -Method POST -ContentType "application/json" -Body $body
+}
+```
+
+Then seed an order (needed for F7 review test and F14 delivery test).  
+Save the script below as `seed_order.js` inside `MERN-Ecommerce-Site/backend` and run `node seed_order.js`:
+
+```javascript
+const mongoose = require('mongoose');
+const Order    = mongoose.model('order', new mongoose.Schema({}, { strict: false }));
+const Customer = mongoose.model('customer', new mongoose.Schema({}, { strict: false }));
+const Product  = mongoose.model('product', new mongoose.Schema({}, { strict: false }));
+
+async function run() {
+    await mongoose.connect('mongodb://127.0.0.1/ecommerce');
+
+    const customer = await Customer.findOne({ email: 'testcustomer@shopcart.test' });
+    const product  = await Product.findOne({});
+
+    await Order.create({
+        buyer: customer._id,
+        shippingData: {
+            address: '123 Test Street', city: 'Amman',
+            state: 'Amman', country: 'Jordan',
+            pinCode: 111000, phoneNo: 9876543210
+        },
+        orderedProducts: [{
+            _id:          product._id,
+            productName:  product.productName,
+            price:        product.price,
+            subcategory:  product.subcategory,
+            productImage: product.productImage,
+            category:     product.category,
+            description:  product.description,
+            tagline:      product.tagline,
+            quantity:     1,
+            seller:       product.seller,
+        }],
+        paymentInfo:      { id: 'TEST_PAY_001', status: 'paid' },
+        paidAt:           new Date(),
+        productsQuantity: 1,
+        taxPrice:         20,
+        shippingPrice:    0,
+        totalPrice:       199,
+        orderStatus:      'Out for Delivery',
+    });
+
+    console.log('Order seeded.');
+    await mongoose.disconnect();
+}
+run().catch(console.error);
+```
+
+---
+
+## Step 3 — Run the Tests
+
+From the `selenium-tests/` directory:
+
+```bash
+# Run all 25 tests
+mvn clean test
+
+# Run a single feature
+mvn test -Dtest=F2_SignInTest
+
+# Run headless (no browser window)
+mvn test -Dheadless=true
+
+# Run in Firefox or Edge
+mvn test -Dbrowser=firefox
+mvn test -Dbrowser=edge
+```
+
+Expected result: **25 tests, 0 failures**
+
+---
+
+## Step 4 — View the Report
+
+After the run, open the HTML report in a browser:
+
+```
+selenium-tests/target/ShopCartTestReport.html
+```
+
+Screenshots of failed tests are saved to:
+
+```
+selenium-tests/target/screenshots/
+```
+
+---
+
+## Test ↔ SRS Mapping
+
+| Test Class | SRS Section | REQ IDs | TC IDs |
+|------------|------------|---------|--------|
+| F1_SignUpTest | 3.2.1 | REQ_F100, REQ_IO020 | TC-01-001 |
+| F2_SignInTest | 3.2.2 | REQ_F200, REQ_IO010 | — |
+| F3_SearchByNameTest | 3.2.3 | REQ_F300, REQ_IO030 | — |
+| F4_SearchByCategoryTest | 3.2.4 | REQ_F400, REQ_IO040 | — |
+| F5_AddToCartTest | 3.2.5 | REQ_F500, REQ_IO050 | — |
+| F6_AddShippingAddressTest | 3.2.6 | REQ_F600, REQ_IO060 | TC-06-026 to TC-06-034 |
+| F7_AddReviewRatingTest | 3.2.7 | REQ_F700, REQ_IO070 | TC-07-051 to TC-07-054 |
+| F8_AddProductTest | 3.2.8 | REQ_F800, REQ_IO080 | TC-08-056 |
+| F9_DeleteProductTest | 3.2.9 | REQ_F900, REQ_IO090 | TC-09-057 |
+| F10_EditProductTest | 3.2.10 | REQ_F900-edit, REQ_IO0100 | TC-10-058 |
+| F11_ViewProductsTest | 3.2.11 | REQ_F1000, REQ_IO0110 | TC-11-059 |
+| F12_DeleteCustomerReviewTest | 3.2.12 | REQ_F1100, REQ_IO0120 | TC-12-060 |
+| F13_ViewAddedToCartTest | 3.2.13 | REQ_F1200, REQ_IO0130 | TC-13-061 |
+| F14_ViewOutForDeliveryTest | 3.2.14 | REQ_F1300, REQ_IO0140 | TC-14-062 |
+
+---
+
+## Test Accounts (seeded in Step 2)
 
 | Role | Email | Password |
 |------|-------|----------|
 | Customer | testcustomer@shopcart.test | Customer@Pass123 |
 | Seller | testseller@shopcart.test | Seller@Pass123 |
 
-## Run
+---
 
-```sh
-cd selenium-tests
-mvn clean test
-```
+## Troubleshooting
 
-Run a single feature:
-```sh
-mvn test -Dtest=F2_SignInTest
-```
-
-Cross-browser:
-```sh
-mvn test -Dbrowser=edge
-mvn test -Dbrowser=firefox
-```
-
-Headless:
-```sh
-mvn test -Dheadless=true
-```
-
-## Report
-
-After run: open `selenium-tests/target/ShopCartTestReport.html` in a browser. Failing tests include screenshot from `target/screenshots/`.
-
-## Test ↔ SRS Mapping
-
-| Test class | SRS § | REQ IDs |
-|-----------|-------|---------|
-| F1_SignUpTest | 3.2.1, 3.1.2 | REQ_F100, REQ_IO020 |
-| F2_SignInTest | 3.2.2, 3.1.1 | REQ_F200, REQ_IO010 |
-| F3_SearchByNameTest | 3.2.3, 3.1.3 | REQ_F300, REQ_IO030 |
-| F4_SearchByCategoryTest | 3.2.4, 3.1.4 | REQ_F400, REQ_IO040 |
-| F5_AddToCartTest | 3.2.5, 3.1.5 | REQ_F500, REQ_IO050 |
-| F6_AddShippingAddressTest | 3.2.6, 3.1.6 | REQ_F600, REQ_IO060 |
-| F7_AddReviewRatingTest | 3.2.7, 3.1.7 | REQ_F700, REQ_IO070 |
-| F8_AddProductTest | 3.2.8, 3.1.8 | REQ_F800, REQ_IO080 |
-| F9_DeleteProductTest | 3.2.9, 3.1.9 | REQ_F900, REQ_IO090 |
-| F10_EditProductTest | 3.2.10, 3.1.10 | REQ_F900-edit, REQ_IO0100 |
-| F11_ViewProductsTest | 3.2.11, 3.1.11 | REQ_F1000, REQ_IO0110 |
-| F12_DeleteCustomerReviewTest | 3.2.12, 3.1.12 | REQ_F1100, REQ_IO0120 |
-| F13_ViewAddedToCartTest | 3.2.13, 3.1.13 | REQ_F1200, REQ_IO0130 |
-| F14_ViewOutForDeliveryTest | 3.2.14, 3.1.14 | REQ_F1300, REQ_IO0140 |
-
-## Layout
-
-```
-selenium-tests/
-├── pom.xml
-├── testng.xml          three suites: auth-validation, customer-flow, seller-flow
-├── testdata/
-│   ├── users.json
-│   └── products.json
-├── src/test/java/com/shopcart/
-│   ├── base/           BaseTest, DriverFactory, ConfigReader
-│   ├── pages/          Page Object Model — one per app page
-│   ├── tests/          F1..F14 test classes (1:1 with SRS features)
-│   └── utils/          WaitUtils, ScreenshotUtils, JsonDataReader
-└── src/test/resources/
-    └── config.properties
-```
-
-## Extending
-
-- **New selectors broke?** Update only the `pages/*.java` file — tests stay untouched.
-- **More negative cases?** Add `@Test` methods to the matching `Fx_*Test` class; keep the SRS REQ ID in the `description=` attribute so it surfaces in the report.
-- **New feature in SRS?** Create `F15_*Test.java`, add to `testng.xml`.
-
-## Notes on SRS vs implementation
-
-The SRS specifies password rules (length ≥ 12, uppercase, special char) under `REQ_IO0207..0209` but the live `AuthenticationPage.jsx` only enforces *required*. Tests for those rules are intentionally **omitted** here — adding them would fail against the current implementation. Document this as a finding in your Test Incident Report.
-
-## Deliverables Mapping
-
-| Assignment doc | Source from this project |
-|----------------|--------------------------|
-| Test Plan | scope + tools + browsers (this README) |
-| Test Design Specification | `testng.xml` test groups |
-| Test Case Specification | each `@Test(description=...)` |
-| Test Procedure Specification | page objects + test method bodies |
-| Test Log | `target/ShopCartTestReport.html` per run |
-| Test Incident Report | failed tests + screenshots |
-| Test Summary Report | ExtentReports dashboard |
+| Problem | Fix |
+|---------|-----|
+| `mvn: command not found` | Use `.\.maven\apache-maven-3.9.16\bin\mvn.cmd` |
+| Backend won't start | Check MongoDB is running: `Get-Service MongoDB` in PowerShell |
+| Tests fail with `Email already exists` | Accounts already seeded — skip Step 2 |
+| F9 deletes a product, later tests fail | Re-seed products (Step 2 products block) |
+| Chrome driver version mismatch warning | Safe to ignore — WebDriverManager handles it automatically |
+| All tests fail with timeout | Verify frontend is on port 3000 and backend on port 5000 |

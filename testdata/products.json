@@ -3,7 +3,7 @@
     "productName": "Selenium Test Product",
     "price": "199",
     "subcategory": "TestSubcat",
-    "productImage": "https://via.placeholder.com/150",
+    "productImage": "https://placehold.co/300x300?text=Product",
     "category": "Electronics",
     "description": "Product created by Selenium test",
     "mrp": "299",

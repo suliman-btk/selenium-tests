@@ -13,10 +13,11 @@ public class F6_AddShippingAddressTest extends BaseTest {
 
     private void loginCustomer() {
         JsonNode u = JsonDataReader.users().get("customer");
-        new LoginPage(driver).openCustomer()
+        LoginPage login = new LoginPage(driver).openCustomer()
                 .typeEmail(u.get("email").asText())
                 .typePassword(u.get("password").asText())
                 .submit();
+        login.loggedIn();
     }
 
     @Test(description = "REQ_F600_1: full valid shipping form proceeds to next step")

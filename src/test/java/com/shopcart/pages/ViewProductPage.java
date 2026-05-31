@@ -20,6 +20,11 @@ public class ViewProductPage extends BasePage {
         return this;
     }
     public boolean addToCartVisible() {
-        return !driver.findElements(addToCart).isEmpty();
+        try {
+            WaitUtils.waitVisible(driver, addToCart);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 }

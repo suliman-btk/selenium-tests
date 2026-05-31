@@ -3,18 +3,8 @@
 <suite name="Failed suite [ShopCart E2E Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="auth-validation(failed)" verbose="0">
     <classes>
-      <class name="com.shopcart.tests.F2_SignInTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="flushReport"/>
-          <include name="setUp"/>
-          <include name="initReport"/>
-          <include name="customerLoginHappyPath"/>
-        </methods>
-      </class> <!-- com.shopcart.tests.F2_SignInTest -->
       <class name="com.shopcart.tests.F1_SignUpTest">
         <methods>
-          <include name="customerSignupHappyPath"/>
           <include name="tearDown"/>
           <include name="flushReport"/>
           <include name="sellerSignupHappyPath"/>
@@ -44,15 +34,6 @@
           <include name="addAsCustomer"/>
         </methods>
       </class> <!-- com.shopcart.tests.F5_AddToCartTest -->
-      <class name="com.shopcart.tests.F4_SearchByCategoryTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="flushReport"/>
-          <include name="setUp"/>
-          <include name="categoriesPopupOpens"/>
-          <include name="initReport"/>
-        </methods>
-      </class> <!-- com.shopcart.tests.F4_SearchByCategoryTest -->
       <class name="com.shopcart.tests.F6_AddShippingAddressTest">
         <methods>
           <include name="tearDown"/>
@@ -85,24 +66,6 @@
           <include name="initReport"/>
         </methods>
       </class> <!-- com.shopcart.tests.F10_EditProductTest -->
-      <class name="com.shopcart.tests.F13_ViewAddedToCartTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="flushReport"/>
-          <include name="setUp"/>
-          <include name="viewAddedToCart"/>
-          <include name="initReport"/>
-        </methods>
-      </class> <!-- com.shopcart.tests.F13_ViewAddedToCartTest -->
-      <class name="com.shopcart.tests.F9_DeleteProductTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="flushReport"/>
-          <include name="deleteProduct"/>
-          <include name="setUp"/>
-          <include name="initReport"/>
-        </methods>
-      </class> <!-- com.shopcart.tests.F9_DeleteProductTest -->
       <class name="com.shopcart.tests.F12_DeleteCustomerReviewTest">
         <methods>
           <include name="tearDown"/>
@@ -112,15 +75,6 @@
           <include name="initReport"/>
         </methods>
       </class> <!-- com.shopcart.tests.F12_DeleteCustomerReviewTest -->
-      <class name="com.shopcart.tests.F14_ViewOutForDeliveryTest">
-        <methods>
-          <include name="viewOutForDelivery"/>
-          <include name="tearDown"/>
-          <include name="flushReport"/>
-          <include name="setUp"/>
-          <include name="initReport"/>
-        </methods>
-      </class> <!-- com.shopcart.tests.F14_ViewOutForDeliveryTest -->
     </classes>
   </test> <!-- seller-flow(failed) -->
 </suite> <!-- Failed suite [ShopCart E2E Suite] -->

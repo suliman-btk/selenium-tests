@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="335.632" tests="25" errors="0" skipped="0" failures="14">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="355.66" tests="25" errors="0" skipped="0" failures="8">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\WinDows\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\WinDows\AppData\Local\Temp\surefire12756762025166867362\surefirebooter-20260531195005845_3.jar C:\Users\WinDows\AppData\Local\Temp\surefire12756762025166867362 2026-05-31T19-50-05_634-jvmRun1 surefire-20260531195005845_1tmp surefire_0-20260531195005845_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\WinDows\AppData\Local\Temp\surefire2124254609381203665\surefirebooter-20260531201116137_3.jar C:\Users\WinDows\AppData\Local\Temp\surefire2124254609381203665 2026-05-31T20-11-15_876-jvmRun1 surefire-20260531201116137_1tmp surefire_0-20260531201116137_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\WinDows\Desktop\My University\software verification and validation\selenium-tests\target\test-classes;C:\Users\WinDows\Desktop\My University\software verification and validation\selenium-tests\target\classes;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\WinDows\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\WinDows\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\WinDows\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\WinDows\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\WinDows\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\WinDows\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\WinDows\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\WinDows\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\WinDows\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\WinDows\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\WinDows\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\WinDows\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\WinDows\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\WinDows\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\WinDows\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\WinDows\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\WinDows\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\WinDows\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\WinDows\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\WinDows\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\WinDows\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\WinDows\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\WinDows\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\WinDows\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\WinDows\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\WinDows\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\WinDows\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\WinDows\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\WinDows\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\WinDows\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\WinDows\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\WinDows\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\WinDows\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\WinDows\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\WinDows\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\WinDows\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\WinDows\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\WinDows\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\WinDows\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\WinDows\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\WinDows\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\WinDows\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\WinDows\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\WinDows\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\WinDows\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\WinDows\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\WinDows\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\WinDows\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\WinDows\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\WinDows\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\WinDows\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\WinDows\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\WinDows\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\WinDows\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\WinDows\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\WinDows\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\WinDows\.m2\repository\org\slf4j\slf4j-simple\2.0.13\slf4j-simple-2.0.13.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\WinDows\AppData\Local\Temp\surefire12756762025166867362\surefirebooter-20260531195005845_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\WinDows\AppData\Local\Temp\surefire2124254609381203665\surefirebooter-20260531201116137_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.8.1+1-LTS"/>
@@ -59,76 +59,38 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="customerSignupHappyPath" classname="com.shopcart.tests.F1_SignUpTest" time="2.344">
-    <failure message="Expected redirect away from /Customerregister after valid signup expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected redirect away from /Customerregister after valid signup expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.shopcart.tests.F1_SignUpTest.customerSignupHappyPath(F1_SignUpTest.java:29)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="customerSignupHappyPath" classname="com.shopcart.tests.F1_SignUpTest" time="2.394">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-May 31, 2026 7:50:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 31, 2026 8:11:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:50:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:11:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="emptyEmail" classname="com.shopcart.tests.F1_SignUpTest" time="0.691">
-    <system-err><![CDATA[May 31, 2026 7:50:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="emptyEmail" classname="com.shopcart.tests.F1_SignUpTest" time="1.129">
+    <system-err><![CDATA[May 31, 2026 8:11:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:50:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:11:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="emptyName" classname="com.shopcart.tests.F1_SignUpTest" time="0.746">
-    <system-err><![CDATA[May 31, 2026 7:50:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="emptyName" classname="com.shopcart.tests.F1_SignUpTest" time="1.208">
+    <system-err><![CDATA[May 31, 2026 8:11:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:50:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:11:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="emptyPassword" classname="com.shopcart.tests.F1_SignUpTest" time="0.977">
-    <system-err><![CDATA[May 31, 2026 7:50:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="emptyPassword" classname="com.shopcart.tests.F1_SignUpTest" time="0.979">
+    <system-err><![CDATA[May 31, 2026 8:11:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:50:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:11:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="sellerSignupHappyPath" classname="com.shopcart.tests.F1_SignUpTest" time="0.9">
+  <testcase name="sellerSignupHappyPath" classname="com.shopcart.tests.F1_SignUpTest" time="21.364">
     <failure message="Expected redirect away from /Sellerregister after valid signup expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected redirect away from /Sellerregister after valid signup expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -167,164 +129,88 @@ WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[May 31, 2026 7:50:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 31, 2026 8:11:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:50:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:11:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="customerLoginHappyPath" classname="com.shopcart.tests.F2_SignInTest" time="20.951">
-    <failure message="Expected redirect away from /Customerlogin after valid login expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected redirect away from /Customerlogin after valid login expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.shopcart.tests.F2_SignInTest.customerLoginHappyPath(F2_SignInTest.java:22)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-err><![CDATA[May 31, 2026 7:50:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="customerLoginHappyPath" classname="com.shopcart.tests.F2_SignInTest" time="1.746">
+    <system-err><![CDATA[May 31, 2026 8:11:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:50:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:11:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="emptyEmail" classname="com.shopcart.tests.F2_SignInTest" time="0.522">
-    <system-err><![CDATA[May 31, 2026 7:50:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="emptyEmail" classname="com.shopcart.tests.F2_SignInTest" time="0.881">
+    <system-err><![CDATA[May 31, 2026 8:12:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:50:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:12:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="emptyPassword" classname="com.shopcart.tests.F2_SignInTest" time="0.546">
-    <system-err><![CDATA[May 31, 2026 7:50:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="emptyPassword" classname="com.shopcart.tests.F2_SignInTest" time="0.837">
+    <system-err><![CDATA[May 31, 2026 8:12:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:50:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:12:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="sellerLoginHappyPath" classname="com.shopcart.tests.F2_SignInTest" time="1.418">
-    <system-err><![CDATA[May 31, 2026 7:51:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="sellerLoginHappyPath" classname="com.shopcart.tests.F2_SignInTest" time="1.488">
+    <system-err><![CDATA[May 31, 2026 8:12:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:51:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:12:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="unknownUser" classname="com.shopcart.tests.F2_SignInTest" time="1.021">
-    <system-err><![CDATA[May 31, 2026 7:51:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="unknownUser" classname="com.shopcart.tests.F2_SignInTest" time="1.159">
+    <system-err><![CDATA[May 31, 2026 8:12:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:51:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:12:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="wrongPassword" classname="com.shopcart.tests.F2_SignInTest" time="0.921">
-    <system-err><![CDATA[May 31, 2026 7:51:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="wrongPassword" classname="com.shopcart.tests.F2_SignInTest" time="1.618">
+    <system-err><![CDATA[May 31, 2026 8:12:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:51:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:12:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="searchGibberish" classname="com.shopcart.tests.F3_SearchByNameTest" time="20.691">
-    <system-err><![CDATA[May 31, 2026 7:51:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="searchGibberish" classname="com.shopcart.tests.F3_SearchByNameTest" time="21.343">
+    <system-err><![CDATA[May 31, 2026 8:12:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:51:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:12:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="searchKnownProduct" classname="com.shopcart.tests.F3_SearchByNameTest" time="0.562">
-    <system-err><![CDATA[May 31, 2026 7:51:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="searchKnownProduct" classname="com.shopcart.tests.F3_SearchByNameTest" time="1.005">
+    <system-err><![CDATA[May 31, 2026 8:12:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:51:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:12:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="categoriesPopupOpens" classname="com.shopcart.tests.F4_SearchByCategoryTest" time="0.563">
-    <failure message="Expected at least one known category to render expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected at least one known category to render expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.shopcart.tests.F4_SearchByCategoryTest.categoriesPopupOpens(F4_SearchByCategoryTest.java:19)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-err><![CDATA[May 31, 2026 7:51:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="categoriesPopupOpens" classname="com.shopcart.tests.F4_SearchByCategoryTest" time="0.927">
+    <system-err><![CDATA[May 31, 2026 8:12:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:51:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:12:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="addAsCustomer" classname="com.shopcart.tests.F5_AddToCartTest" time="21.523">
-    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(@href,&apos;/product/view/&apos;)])[1] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64900}, goog:processID: 31864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64900/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 59264696614e4a7cf7017db93cade132" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+  <testcase name="addAsCustomer" classname="com.shopcart.tests.F5_AddToCartTest" time="22.436">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(@href,&apos;/product/view/&apos;)])[1] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49757}, goog:processID: 18260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49757/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b8bb892d039d1e3c45f5081de5d4418e" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(@href,'/product/view/')])[1] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64900}, goog:processID: 31864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64900/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 59264696614e4a7cf7017db93cade132
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49757}, goog:processID: 18260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49757/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8bb892d039d1e3c45f5081de5d4418e
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
 	at com.shopcart.pages.ProductListPage.openFirstProduct(ProductListPage.java:18)
-	at com.shopcart.tests.F5_AddToCartTest.addAsCustomer(F5_AddToCartTest.java:24)
+	at com.shopcart.tests.F5_AddToCartTest.addAsCustomer(F5_AddToCartTest.java:25)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -358,25 +244,18 @@ Session ID: 59264696614e4a7cf7017db93cade132
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[May 31, 2026 7:51:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 31, 2026 8:12:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:51:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:12:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="emptyShippingShowsErrors" classname="com.shopcart.tests.F6_AddShippingAddressTest" time="21.383">
-    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(text(),&apos;Next&apos;) or contains(text(),&apos;NEXT&apos;)] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60279}, goog:processID: 27956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60279/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fd0439db2e64d53775968135bc39f693" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(text(),'Next') or contains(text(),'NEXT')] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60279}, goog:processID: 27956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60279/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fd0439db2e64d53775968135bc39f693
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
-	at com.shopcart.pages.CheckoutShippingPage.submitEmpty(CheckoutShippingPage.java:31)
-	at com.shopcart.tests.F6_AddShippingAddressTest.emptyShippingShowsErrors(F6_AddShippingAddressTest.java:40)
+  <testcase name="emptyShippingShowsErrors" classname="com.shopcart.tests.F6_AddShippingAddressTest" time="83.289">
+    <failure message="Expected required-field error after empty submit expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected required-field error after empty submit expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.shopcart.tests.F6_AddShippingAddressTest.emptyShippingShowsErrors(F6_AddShippingAddressTest.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -410,25 +289,25 @@ Session ID: fd0439db2e64d53775968135bc39f693
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[May 31, 2026 7:52:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 31, 2026 8:13:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:52:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:13:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="shippingHappyPath" classname="com.shopcart.tests.F6_AddShippingAddressTest" time="21.347">
-    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //label[contains(text(),&apos;Address&apos;)]/following::input[1] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62741}, goog:processID: 24836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62741/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 92a62102ea1a2640c55fd84fde549229" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+  <testcase name="shippingHappyPath" classname="com.shopcart.tests.F6_AddShippingAddressTest" time="22.344">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //label[contains(text(),&apos;Address&apos;)]/following::input[1] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57141}, goog:processID: 35328, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57141/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 691bcde5b186730cbb12ccc78d2138c1" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for visibility of element located by By.xpath: //label[contains(text(),'Address')]/following::input[1] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62741}, goog:processID: 24836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62741/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 92a62102ea1a2640c55fd84fde549229
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57141}, goog:processID: 35328, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57141/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 691bcde5b186730cbb12ccc78d2138c1
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at com.shopcart.utils.WaitUtils.waitVisible(WaitUtils.java:25)
 	at com.shopcart.pages.CheckoutShippingPage.fillAll(CheckoutShippingPage.java:21)
-	at com.shopcart.tests.F6_AddShippingAddressTest.shippingHappyPath(F6_AddShippingAddressTest.java:28)
+	at com.shopcart.tests.F6_AddShippingAddressTest.shippingHappyPath(F6_AddShippingAddressTest.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -462,24 +341,24 @@ Session ID: 92a62102ea1a2640c55fd84fde549229
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[May 31, 2026 7:52:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 31, 2026 8:14:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:52:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:14:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="addReviewHappyPath" classname="com.shopcart.tests.F7_AddReviewRatingTest" time="21.276">
-    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //textarea | //input[@name=&apos;review&apos;] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53279}, goog:processID: 9580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53279/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9f18cf6003d9759afb4ce2c5f8bda29e" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of element located by By.xpath: //textarea | //input[@name='review'] (tried for 20 second(s) with 500 milliseconds interval)
+  <testcase name="addReviewHappyPath" classname="com.shopcart.tests.F7_AddReviewRatingTest" time="22.604">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(@href,&apos;/product/view/&apos;)])[1] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57034}, goog:processID: 35332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57034/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: df527debdb0ca3f68e02261395127e3c" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(@href,'/product/view/')])[1] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53279}, goog:processID: 9580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53279/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f18cf6003d9759afb4ce2c5f8bda29e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57034}, goog:processID: 35332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57034/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df527debdb0ca3f68e02261395127e3c
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.shopcart.utils.WaitUtils.waitVisible(WaitUtils.java:25)
-	at com.shopcart.pages.ReviewPage.writeReview(ReviewPage.java:16)
+	at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
+	at com.shopcart.pages.ProductListPage.openFirstProduct(ProductListPage.java:18)
 	at com.shopcart.tests.F7_AddReviewRatingTest.addReviewHappyPath(F7_AddReviewRatingTest.java:25)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -514,76 +393,23 @@ Session ID: 9f18cf6003d9759afb4ce2c5f8bda29e
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[May 31, 2026 7:52:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 31, 2026 8:15:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:52:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:15:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="addProductHappyPath" classname="com.shopcart.tests.F8_AddProductTest" time="21.98">
-    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),&apos;Add Product&apos;) or contains(text(),&apos;ADD PRODUCT&apos;)] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54557}, goog:processID: 27116, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54557/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7e9a859a49aef62b53bc4a4e4d58360e" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),'Add Product') or contains(text(),'ADD PRODUCT')] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54557}, goog:processID: 27116, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54557/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e9a859a49aef62b53bc4a4e4d58360e
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
-	at com.shopcart.pages.SellerDashboardPage.gotoAddProduct(SellerDashboardPage.java:12)
-	at com.shopcart.tests.F8_AddProductTest.addProductHappyPath(F8_AddProductTest.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-err><![CDATA[May 31, 2026 7:53:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:53:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="deleteProduct" classname="com.shopcart.tests.F9_DeleteProductTest" time="1.046">
-    <failure message="stale element reference: stale element not found in the current frame&#10;  (Session info: chrome=148.0.7778.179)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5387d0e836e94f604b9e630e86ef8a58, clickElement {id=f.CB0718200C98694AE824FE59D0307F2E.d.2D9D3D028D0DA9D8A91ABCD2D7C49327.e.17}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54071}, goog:processID: 2548, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54071/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (5387d0e836e94f604b9e630e86ef8a58)] -&gt; xpath: //*[contains(text(),&apos;Products&apos;) or contains(text(),&apos;Show Products&apos;)]]&#10;Session ID: 5387d0e836e94f604b9e630e86ef8a58" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
-stale element reference: stale element not found in the current frame
+  <testcase name="addProductHappyPath" classname="com.shopcart.tests.F8_AddProductTest" time="14.396">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//label[contains(text(),&apos;tagline&apos;)]/following::input[1]&quot;}&#10;  (Session info: chrome=148.0.7778.179)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [9e239d7661e6956e68ff46ace2662b66, findElement {using=xpath, value=//label[contains(text(),&apos;tagline&apos;)]/following::input[1]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64658}, goog:processID: 27232, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64658/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9e239d7661e6956e68ff46ace2662b66" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(text(),'tagline')]/following::input[1]"}
   (Session info: chrome=148.0.7778.179)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5387d0e836e94f604b9e630e86ef8a58, clickElement {id=f.CB0718200C98694AE824FE59D0307F2E.d.2D9D3D028D0DA9D8A91ABCD2D7C49327.e.17}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54071}, goog:processID: 2548, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54071/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5387d0e836e94f604b9e630e86ef8a58)] -> xpath: //*[contains(text(),'Products') or contains(text(),'Show Products')]]
-Session ID: 5387d0e836e94f604b9e630e86ef8a58
+Command: [9e239d7661e6956e68ff46ace2662b66, findElement {using=xpath, value=//label[contains(text(),'tagline')]/following::input[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64658}, goog:processID: 27232, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64658/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e239d7661e6956e68ff46ace2662b66
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -596,10 +422,12 @@ Session ID: 5387d0e836e94f604b9e630e86ef8a58
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at com.shopcart.pages.SellerDashboardPage.gotoProducts(SellerDashboardPage.java:19)
-	at com.shopcart.tests.F9_DeleteProductTest.deleteProduct(F9_DeleteProductTest.java:25)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at com.shopcart.pages.SellerAddProductPage.fill(SellerAddProductPage.java:27)
+	at com.shopcart.tests.F8_AddProductTest.addProductHappyPath(F8_AddProductTest.java:27)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -633,20 +461,27 @@ Session ID: 5387d0e836e94f604b9e630e86ef8a58
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[May 31, 2026 7:53:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 31, 2026 8:15:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:53:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:15:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="editProduct" classname="com.shopcart.tests.F10_EditProductTest" time="21.775">
-    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: (//button[contains(text(),&apos;Edit&apos;) or contains(text(),&apos;EDIT&apos;)])[1] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59588}, goog:processID: 39632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59588/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 13b82cc0d4edb5d8e1c8d3fdad55b17a" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+  <testcase name="deleteProduct" classname="com.shopcart.tests.F9_DeleteProductTest" time="2.156">
+    <system-err><![CDATA[May 31, 2026 8:15:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 31, 2026 8:15:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="editProduct" classname="com.shopcart.tests.F10_EditProductTest" time="22.281">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: (//button[contains(text(),&apos;Edit&apos;) or contains(text(),&apos;EDIT&apos;)])[1] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53957}, goog:processID: 39840, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53957/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5355446704f098c16a8660db8ad11e2f" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for element to be clickable: By.xpath: (//button[contains(text(),'Edit') or contains(text(),'EDIT')])[1] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59588}, goog:processID: 39632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59588/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 13b82cc0d4edb5d8e1c8d3fdad55b17a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53957}, goog:processID: 39840, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53957/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5355446704f098c16a8660db8ad11e2f
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
@@ -684,20 +519,20 @@ Session ID: 13b82cc0d4edb5d8e1c8d3fdad55b17a
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[May 31, 2026 7:53:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 31, 2026 8:16:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:53:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:16:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="viewProducts" classname="com.shopcart.tests.F11_ViewProductsTest" time="0.884">
-    <system-err><![CDATA[May 31, 2026 7:54:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="viewProducts" classname="com.shopcart.tests.F11_ViewProductsTest" time="1.847">
+    <system-err><![CDATA[May 31, 2026 8:16:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:54:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:16:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="deleteReview" classname="com.shopcart.tests.F12_DeleteCustomerReviewTest" time="21.447">
+  <testcase name="deleteReview" classname="com.shopcart.tests.F12_DeleteCustomerReviewTest" time="22.57">
     <failure message="Reviews section did not load expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Reviews section did not load expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -736,113 +571,23 @@ WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need t
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[May 31, 2026 7:54:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 31, 2026 8:16:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:54:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:16:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="viewAddedToCart" classname="com.shopcart.tests.F13_ViewAddedToCartTest" time="21.32">
-    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),&apos;Orders&apos;)] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57181}, goog:processID: 32364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57181/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d08de271172007dc96c9cea561e9b8fe" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),'Orders')] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57181}, goog:processID: 32364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57181/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d08de271172007dc96c9cea561e9b8fe
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
-	at com.shopcart.pages.SellerDashboardPage.gotoOrders(SellerDashboardPage.java:24)
-	at com.shopcart.tests.F13_ViewAddedToCartTest.viewAddedToCart(F13_ViewAddedToCartTest.java:24)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-err><![CDATA[May 31, 2026 7:54:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="viewAddedToCart" classname="com.shopcart.tests.F13_ViewAddedToCartTest" time="2.106">
+    <system-err><![CDATA[May 31, 2026 8:16:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:54:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:16:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="viewOutForDelivery" classname="com.shopcart.tests.F14_ViewOutForDeliveryTest" time="21.55">
-    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),&apos;Orders&apos;)] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62692}, goog:processID: 39952, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62692/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e407c402b175012582d16d2dee448c43" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),'Orders')] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62692}, goog:processID: 39952, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62692/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e407c402b175012582d16d2dee448c43
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
-	at com.shopcart.pages.SellerDashboardPage.gotoOrders(SellerDashboardPage.java:24)
-	at com.shopcart.tests.F14_ViewOutForDeliveryTest.viewOutForDelivery(F14_ViewOutForDeliveryTest.java:24)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-err><![CDATA[May 31, 2026 7:55:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="viewOutForDelivery" classname="com.shopcart.tests.F14_ViewOutForDeliveryTest" time="2.423">
+    <system-err><![CDATA[May 31, 2026 8:17:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 31, 2026 7:55:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 31, 2026 8:17:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>

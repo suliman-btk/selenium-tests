@@ -3,26 +3,36 @@ package com.shopcart.pages;
 import com.shopcart.utils.WaitUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import java.time.Duration;
 
 public class SellerDashboardPage extends BasePage {
 
     public SellerDashboardPage(WebDriver driver) { super(driver); }
 
+    private void waitForLogin() {
+        try {
+            new WebDriverWait(driver, Duration.ofSeconds(20))
+                    .until(ExpectedConditions.not(ExpectedConditions.urlContains("login")));
+        } catch (Exception ignored) {}
+    }
+
     public SellerDashboardPage gotoAddProduct() {
-        WaitUtils.waitClickable(driver,
-                By.xpath("//*[contains(text(),'Add Product') or contains(text(),'ADD PRODUCT')]")).click();
+        waitForLogin();
+        go("/Seller/addproduct");
         return this;
     }
 
     public SellerDashboardPage gotoProducts() {
-        WaitUtils.waitClickable(driver,
-                By.xpath("//*[contains(text(),'Products') or contains(text(),'Show Products')]")).click();
+        waitForLogin();
+        go("/Seller/products");
         return this;
     }
 
     public SellerDashboardPage gotoOrders() {
-        WaitUtils.waitClickable(driver,
-                By.xpath("//*[contains(text(),'Orders')]")).click();
+        waitForLogin();
+        go("/Seller/orders");
         return this;
     }
 

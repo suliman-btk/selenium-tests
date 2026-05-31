@@ -1,85 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="25" passed="11" failed="14" skipped="0">
+<testng-results ignored="0" total="25" passed="17" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-31T19:50:06 MYT" name="ShopCart E2E Suite" finished-at="2026-05-31T19:55:41 MYT" duration-ms="334412">
+  <suite started-at="2026-05-31T20:11:17 MYT" name="ShopCart E2E Suite" finished-at="2026-05-31T20:17:10 MYT" duration-ms="353288">
     <groups>
     </groups>
-    <test started-at="2026-05-31T19:50:06 MYT" name="auth-validation" finished-at="2026-05-31T19:51:13 MYT" duration-ms="66272">
+    <test started-at="2026-05-31T20:11:17 MYT" name="auth-validation" finished-at="2026-05-31T20:12:23 MYT" duration-ms="66354">
       <class name="com.shopcart.tests.F2_SignInTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:50:26 MYT" name="setUp" finished-at="2026-05-31T19:50:28 MYT" duration-ms="2123" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:11:58 MYT" name="setUp" finished-at="2026-05-31T20:12:01 MYT" duration-ms="3180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="customerLoginHappyPath()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:50:28 MYT" name="customerLoginHappyPath" description="REQ_F200_5: valid customer login redirects to home" finished-at="2026-05-31T19:50:49 MYT" duration-ms="20947" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Expected redirect away from /Customerlogin after valid login expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Expected redirect away from /Customerlogin after valid login expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at com.shopcart.tests.F2_SignInTest.customerLoginHappyPath(F2_SignInTest.java:22)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="customerLoginHappyPath()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:12:01 MYT" name="customerLoginHappyPath" description="REQ_F200_5: valid customer login redirects to home" finished-at="2026-05-31T20:12:03 MYT" duration-ms="1745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customerLoginHappyPath -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:50:49 MYT" name="tearDown" finished-at="2026-05-31T19:50:50 MYT" duration-ms="814" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:12:03 MYT" name="tearDown" finished-at="2026-05-31T20:12:03 MYT" duration-ms="319" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=customerLoginHappyPath status=FAILURE method=F2_SignInTest.customerLoginHappyPath()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f] output={null}]]]>
+                <![CDATA[[TestResult name=customerLoginHappyPath status=SUCCESS method=F2_SignInTest.customerLoginHappyPath()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:50:50 MYT" name="setUp" finished-at="2026-05-31T19:50:52 MYT" duration-ms="2207" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:12:03 MYT" name="setUp" finished-at="2026-05-31T20:12:06 MYT" duration-ms="2274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="emptyEmail()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:50:52 MYT" name="emptyEmail" description="REQ_IO010_5: empty email shows &#039;Email is required&#039;" finished-at="2026-05-31T19:50:53 MYT" duration-ms="522" status="PASS">
+        <test-method signature="emptyEmail()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:12:06 MYT" name="emptyEmail" description="REQ_IO010_5: empty email shows &#039;Email is required&#039;" finished-at="2026-05-31T20:12:06 MYT" duration-ms="879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyEmail -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:50:53 MYT" name="tearDown" finished-at="2026-05-31T19:50:55 MYT" duration-ms="2114" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:12:06 MYT" name="tearDown" finished-at="2026-05-31T20:12:07 MYT" duration-ms="335" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,15 +45,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:50:55 MYT" name="setUp" finished-at="2026-05-31T19:50:59 MYT" duration-ms="4239" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:12:07 MYT" name="setUp" finished-at="2026-05-31T20:12:09 MYT" duration-ms="2081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="emptyPassword()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:50:59 MYT" name="emptyPassword" description="REQ_IO010_6: empty password shows &#039;Password is required&#039;" finished-at="2026-05-31T19:51:00 MYT" duration-ms="546" status="PASS">
+        <test-method signature="emptyPassword()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:12:09 MYT" name="emptyPassword" description="REQ_IO010_6: empty password shows &#039;Password is required&#039;" finished-at="2026-05-31T20:12:10 MYT" duration-ms="838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyPassword -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:51:00 MYT" name="tearDown" finished-at="2026-05-31T19:51:00 MYT" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:12:10 MYT" name="tearDown" finished-at="2026-05-31T20:12:10 MYT" duration-ms="382" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -109,15 +64,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:51:00 MYT" name="setUp" finished-at="2026-05-31T19:51:04 MYT" duration-ms="3929" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:12:10 MYT" name="setUp" finished-at="2026-05-31T20:12:12 MYT" duration-ms="2235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sellerLoginHappyPath()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:51:04 MYT" name="sellerLoginHappyPath" description="REQ_F200_5: valid seller login redirects to dashboard" finished-at="2026-05-31T19:51:05 MYT" duration-ms="1417" status="PASS">
+        <test-method signature="sellerLoginHappyPath()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:12:12 MYT" name="sellerLoginHappyPath" description="REQ_F200_5: valid seller login redirects to dashboard" finished-at="2026-05-31T20:12:14 MYT" duration-ms="1488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sellerLoginHappyPath -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:51:05 MYT" name="tearDown" finished-at="2026-05-31T19:51:06 MYT" duration-ms="237" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:12:14 MYT" name="tearDown" finished-at="2026-05-31T20:12:14 MYT" duration-ms="418" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -128,15 +83,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:51:06 MYT" name="setUp" finished-at="2026-05-31T19:51:08 MYT" duration-ms="2697" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:12:14 MYT" name="setUp" finished-at="2026-05-31T20:12:16 MYT" duration-ms="2113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="unknownUser()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:51:08 MYT" name="unknownUser" description="REQ_IO010_4: unknown user shows &#039;User not found&#039; popup" finished-at="2026-05-31T19:51:09 MYT" duration-ms="1022" status="PASS">
+        <test-method signature="unknownUser()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:12:16 MYT" name="unknownUser" description="REQ_IO010_4: unknown user shows &#039;User not found&#039; popup" finished-at="2026-05-31T20:12:17 MYT" duration-ms="1158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unknownUser -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:51:09 MYT" name="tearDown" finished-at="2026-05-31T19:51:10 MYT" duration-ms="208" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:12:17 MYT" name="tearDown" finished-at="2026-05-31T20:12:18 MYT" duration-ms="220" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,15 +102,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:51:10 MYT" name="setUp" finished-at="2026-05-31T19:51:12 MYT" duration-ms="1999" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:12:18 MYT" name="setUp" finished-at="2026-05-31T20:12:21 MYT" duration-ms="3624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="wrongPassword()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:51:12 MYT" name="wrongPassword" description="REQ_IO010_7: wrong password shows &#039;Invalid Password&#039; popup" finished-at="2026-05-31T19:51:13 MYT" duration-ms="921" status="PASS">
+        <test-method signature="wrongPassword()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:12:21 MYT" name="wrongPassword" description="REQ_IO010_7: wrong password shows &#039;Invalid Password&#039; popup" finished-at="2026-05-31T20:12:23 MYT" duration-ms="1618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrongPassword -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T19:51:13 MYT" name="tearDown" finished-at="2026-05-31T19:51:13 MYT" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:12:23 MYT" name="tearDown" finished-at="2026-05-31T20:12:23 MYT" duration-ms="401" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -168,79 +123,34 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F2_SignInTest -->
       <class name="com.shopcart.tests.F1_SignUpTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T19:50:06 MYT" name="setUp" finished-at="2026-05-31T19:50:09 MYT" duration-ms="2719" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:11:17 MYT" name="setUp" finished-at="2026-05-31T20:11:20 MYT" duration-ms="3053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="customerSignupHappyPath()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T19:50:09 MYT" name="customerSignupHappyPath" description="REQ_F100_1: valid customer signup creates account" finished-at="2026-05-31T19:50:12 MYT" duration-ms="2339" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Expected redirect away from /Customerregister after valid signup expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Expected redirect away from /Customerregister after valid signup expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at com.shopcart.tests.F1_SignUpTest.customerSignupHappyPath(F1_SignUpTest.java:29)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="customerSignupHappyPath()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:11:20 MYT" name="customerSignupHappyPath" description="REQ_F100_1: valid customer signup creates account" finished-at="2026-05-31T20:11:22 MYT" duration-ms="2384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customerSignupHappyPath -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T19:50:12 MYT" name="tearDown" finished-at="2026-05-31T19:50:12 MYT" duration-ms="741" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:11:22 MYT" name="tearDown" finished-at="2026-05-31T20:11:23 MYT" duration-ms="566" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=customerSignupHappyPath status=FAILURE method=F1_SignUpTest.customerSignupHappyPath()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc] output={null}]]]>
+                <![CDATA[[TestResult name=customerSignupHappyPath status=SUCCESS method=F1_SignUpTest.customerSignupHappyPath()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T19:50:12 MYT" name="setUp" finished-at="2026-05-31T19:50:14 MYT" duration-ms="2137" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:11:23 MYT" name="setUp" finished-at="2026-05-31T20:11:25 MYT" duration-ms="2137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="emptyEmail()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T19:50:14 MYT" name="emptyEmail" description="REQ_IO020_6: missing email shows &#039;Email is required&#039;" finished-at="2026-05-31T19:50:15 MYT" duration-ms="692" status="PASS">
+        <test-method signature="emptyEmail()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:11:25 MYT" name="emptyEmail" description="REQ_IO020_6: missing email shows &#039;Email is required&#039;" finished-at="2026-05-31T20:11:26 MYT" duration-ms="1129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyEmail -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T19:50:15 MYT" name="tearDown" finished-at="2026-05-31T19:50:15 MYT" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:11:26 MYT" name="tearDown" finished-at="2026-05-31T20:11:27 MYT" duration-ms="251" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,15 +161,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T19:50:15 MYT" name="setUp" finished-at="2026-05-31T19:50:18 MYT" duration-ms="2682" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:11:27 MYT" name="setUp" finished-at="2026-05-31T20:11:29 MYT" duration-ms="2321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="emptyName()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T19:50:18 MYT" name="emptyName" description="REQ_IO020_11: missing name shows &#039;Name is required&#039;" finished-at="2026-05-31T19:50:19 MYT" duration-ms="744" status="PASS">
+        <test-method signature="emptyName()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:11:29 MYT" name="emptyName" description="REQ_IO020_11: missing name shows &#039;Name is required&#039;" finished-at="2026-05-31T20:11:30 MYT" duration-ms="1210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyName -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T19:50:19 MYT" name="tearDown" finished-at="2026-05-31T19:50:19 MYT" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:11:30 MYT" name="tearDown" finished-at="2026-05-31T20:11:30 MYT" duration-ms="244" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -270,15 +180,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T19:50:19 MYT" name="setUp" finished-at="2026-05-31T19:50:22 MYT" duration-ms="2505" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:11:30 MYT" name="setUp" finished-at="2026-05-31T20:11:32 MYT" duration-ms="2120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="emptyPassword()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T19:50:22 MYT" name="emptyPassword" description="REQ_IO020_10: missing password shows &#039;Password is required&#039;" finished-at="2026-05-31T19:50:22 MYT" duration-ms="977" status="PASS">
+        <test-method signature="emptyPassword()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:11:32 MYT" name="emptyPassword" description="REQ_IO020_10: missing password shows &#039;Password is required&#039;" finished-at="2026-05-31T20:11:33 MYT" duration-ms="981" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyPassword -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T19:50:22 MYT" name="tearDown" finished-at="2026-05-31T19:50:23 MYT" duration-ms="324" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:11:33 MYT" name="tearDown" finished-at="2026-05-31T20:11:34 MYT" duration-ms="365" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -289,11 +199,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T19:50:23 MYT" name="setUp" finished-at="2026-05-31T19:50:25 MYT" duration-ms="2127" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:11:34 MYT" name="setUp" finished-at="2026-05-31T20:11:36 MYT" duration-ms="2104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sellerSignupHappyPath()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T19:50:25 MYT" name="sellerSignupHappyPath" description="REQ_F100_1: valid seller signup creates shop" finished-at="2026-05-31T19:50:26 MYT" duration-ms="894" status="FAIL">
+        <test-method signature="sellerSignupHappyPath()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:11:36 MYT" name="sellerSignupHappyPath" description="REQ_F100_1: valid seller signup creates shop" finished-at="2026-05-31T20:11:57 MYT" duration-ms="21361" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Expected redirect away from /Sellerregister after valid signup expected [true] but found [false]]]>
@@ -342,7 +252,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sellerSignupHappyPath -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T19:50:26 MYT" name="tearDown" finished-at="2026-05-31T19:50:26 MYT" duration-ms="506" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:11:57 MYT" name="tearDown" finished-at="2026-05-31T20:11:58 MYT" duration-ms="772" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -355,34 +265,34 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F1_SignUpTest -->
     </test> <!-- auth-validation -->
-    <test started-at="2026-05-31T19:51:13 MYT" name="customer-flow" finished-at="2026-05-31T19:53:23 MYT" duration-ms="129872">
+    <test started-at="2026-05-31T20:12:23 MYT" name="customer-flow" finished-at="2026-05-31T20:15:39 MYT" duration-ms="195200">
       <class name="com.shopcart.tests.F5_AddToCartTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F5_AddToCartTest@55141def]" started-at="2026-05-31T19:51:46 MYT" name="setUp" finished-at="2026-05-31T19:51:48 MYT" duration-ms="2029" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F5_AddToCartTest@55141def]" started-at="2026-05-31T20:12:55 MYT" name="setUp" finished-at="2026-05-31T20:12:57 MYT" duration-ms="2205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addAsCustomer()[pri:0, instance:com.shopcart.tests.F5_AddToCartTest@55141def]" started-at="2026-05-31T19:51:48 MYT" name="addAsCustomer" description="REQ_F500_1: logged-in customer can add product to cart" finished-at="2026-05-31T19:52:09 MYT" duration-ms="21517" status="FAIL">
+        <test-method signature="addAsCustomer()[pri:0, instance:com.shopcart.tests.F5_AddToCartTest@55141def]" started-at="2026-05-31T20:12:57 MYT" name="addAsCustomer" description="REQ_F500_1: logged-in customer can add product to cart" finished-at="2026-05-31T20:13:20 MYT" duration-ms="22431" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(@href,'/product/view/')])[1] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64900}, goog:processID: 31864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64900/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 59264696614e4a7cf7017db93cade132]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49757}, goog:processID: 18260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49757/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8bb892d039d1e3c45f5081de5d4418e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(@href,'/product/view/')])[1] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64900}, goog:processID: 31864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64900/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 59264696614e4a7cf7017db93cade132
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49757}, goog:processID: 18260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49757/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8bb892d039d1e3c45f5081de5d4418e
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
 at com.shopcart.pages.ProductListPage.openFirstProduct(ProductListPage.java:18)
-at com.shopcart.tests.F5_AddToCartTest.addAsCustomer(F5_AddToCartTest.java:24)
+at com.shopcart.tests.F5_AddToCartTest.addAsCustomer(F5_AddToCartTest.java:25)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -421,7 +331,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAsCustomer -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F5_AddToCartTest@55141def]" started-at="2026-05-31T19:52:09 MYT" name="tearDown" finished-at="2026-05-31T19:52:10 MYT" duration-ms="436" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F5_AddToCartTest@55141def]" started-at="2026-05-31T20:13:20 MYT" name="tearDown" finished-at="2026-05-31T20:13:20 MYT" duration-ms="416" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -434,15 +344,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F5_AddToCartTest -->
       <class name="com.shopcart.tests.F3_SearchByNameTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@1aafa419]" started-at="2026-05-31T19:51:13 MYT" name="setUp" finished-at="2026-05-31T19:51:15 MYT" duration-ms="2294" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@1aafa419]" started-at="2026-05-31T20:12:23 MYT" name="setUp" finished-at="2026-05-31T20:12:26 MYT" duration-ms="2941" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchGibberish()[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@1aafa419]" started-at="2026-05-31T19:51:15 MYT" name="searchGibberish" description="REQ_F300_1: gibberish search yields empty state" finished-at="2026-05-31T19:51:36 MYT" duration-ms="20691" status="PASS">
+        <test-method signature="searchGibberish()[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@1aafa419]" started-at="2026-05-31T20:12:26 MYT" name="searchGibberish" description="REQ_F300_1: gibberish search yields empty state" finished-at="2026-05-31T20:12:48 MYT" duration-ms="21343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchGibberish -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@1aafa419]" started-at="2026-05-31T19:51:36 MYT" name="tearDown" finished-at="2026-05-31T19:51:36 MYT" duration-ms="279" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@1aafa419]" started-at="2026-05-31T20:12:48 MYT" name="tearDown" finished-at="2026-05-31T20:12:48 MYT" duration-ms="297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -453,15 +363,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@1aafa419]" started-at="2026-05-31T19:51:36 MYT" name="setUp" finished-at="2026-05-31T19:51:40 MYT" duration-ms="3826" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@1aafa419]" started-at="2026-05-31T20:12:48 MYT" name="setUp" finished-at="2026-05-31T20:12:51 MYT" duration-ms="2554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchKnownProduct()[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@1aafa419]" started-at="2026-05-31T19:51:40 MYT" name="searchKnownProduct" description="REQ_F300_1: search returns matching product" finished-at="2026-05-31T19:51:40 MYT" duration-ms="562" status="PASS">
+        <test-method signature="searchKnownProduct()[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@1aafa419]" started-at="2026-05-31T20:12:51 MYT" name="searchKnownProduct" description="REQ_F300_1: search returns matching product" finished-at="2026-05-31T20:12:52 MYT" duration-ms="1006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchKnownProduct -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@1aafa419]" started-at="2026-05-31T19:51:40 MYT" name="tearDown" finished-at="2026-05-31T19:51:41 MYT" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@1aafa419]" started-at="2026-05-31T20:12:52 MYT" name="tearDown" finished-at="2026-05-31T20:12:52 MYT" duration-ms="216" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -474,32 +384,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F3_SearchByNameTest -->
       <class name="com.shopcart.tests.F6_AddShippingAddressTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@55182842]" started-at="2026-05-31T19:52:10 MYT" name="setUp" finished-at="2026-05-31T19:52:12 MYT" duration-ms="2256" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@55182842]" started-at="2026-05-31T20:13:20 MYT" name="setUp" finished-at="2026-05-31T20:13:22 MYT" duration-ms="2161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="emptyShippingShowsErrors()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@55182842]" started-at="2026-05-31T19:52:12 MYT" name="emptyShippingShowsErrors" description="REQ_IO060_8..16: empty form shows required errors per field" finished-at="2026-05-31T19:52:33 MYT" duration-ms="21381" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method signature="emptyShippingShowsErrors()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@55182842]" started-at="2026-05-31T20:13:22 MYT" name="emptyShippingShowsErrors" description="REQ_IO060_8..16: empty form shows required errors per field" finished-at="2026-05-31T20:14:46 MYT" duration-ms="83288" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(text(),'Next') or contains(text(),'NEXT')] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60279}, goog:processID: 27956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60279/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fd0439db2e64d53775968135bc39f693]]>
+              <![CDATA[Expected required-field error after empty submit expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(text(),'Next') or contains(text(),'NEXT')] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60279}, goog:processID: 27956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60279/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fd0439db2e64d53775968135bc39f693
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
-at com.shopcart.pages.CheckoutShippingPage.submitEmpty(CheckoutShippingPage.java:31)
-at com.shopcart.tests.F6_AddShippingAddressTest.emptyShippingShowsErrors(F6_AddShippingAddressTest.java:40)
+              <![CDATA[java.lang.AssertionError: Expected required-field error after empty submit expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.shopcart.tests.F6_AddShippingAddressTest.emptyShippingShowsErrors(F6_AddShippingAddressTest.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -534,11 +433,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyShippingShowsErrors -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@55182842]" started-at="2026-05-31T19:52:33 MYT" name="tearDown" finished-at="2026-05-31T19:52:34 MYT" duration-ms="465" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@55182842]" started-at="2026-05-31T20:14:46 MYT" name="tearDown" finished-at="2026-05-31T20:14:46 MYT" duration-ms="563" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -549,32 +448,32 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@55182842]" started-at="2026-05-31T19:52:34 MYT" name="setUp" finished-at="2026-05-31T19:52:36 MYT" duration-ms="2435" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@55182842]" started-at="2026-05-31T20:14:46 MYT" name="setUp" finished-at="2026-05-31T20:14:48 MYT" duration-ms="2248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="shippingHappyPath()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@55182842]" started-at="2026-05-31T19:52:36 MYT" name="shippingHappyPath" description="REQ_F600_1: full valid shipping form proceeds to next step" finished-at="2026-05-31T19:52:57 MYT" duration-ms="21346" status="FAIL">
+        <test-method signature="shippingHappyPath()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@55182842]" started-at="2026-05-31T20:14:48 MYT" name="shippingHappyPath" description="REQ_F600_1: full valid shipping form proceeds to next step" finished-at="2026-05-31T20:15:11 MYT" duration-ms="22339" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //label[contains(text(),'Address')]/following::input[1] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62741}, goog:processID: 24836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62741/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 92a62102ea1a2640c55fd84fde549229]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57141}, goog:processID: 35328, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57141/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 691bcde5b186730cbb12ccc78d2138c1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //label[contains(text(),'Address')]/following::input[1] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62741}, goog:processID: 24836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62741/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 92a62102ea1a2640c55fd84fde549229
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57141}, goog:processID: 35328, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57141/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 691bcde5b186730cbb12ccc78d2138c1
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at com.shopcart.utils.WaitUtils.waitVisible(WaitUtils.java:25)
 at com.shopcart.pages.CheckoutShippingPage.fillAll(CheckoutShippingPage.java:21)
-at com.shopcart.tests.F6_AddShippingAddressTest.shippingHappyPath(F6_AddShippingAddressTest.java:28)
+at com.shopcart.tests.F6_AddShippingAddressTest.shippingHappyPath(F6_AddShippingAddressTest.java:29)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -613,7 +512,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shippingHappyPath -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@55182842]" started-at="2026-05-31T19:52:57 MYT" name="tearDown" finished-at="2026-05-31T19:52:58 MYT" duration-ms="622" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@55182842]" started-at="2026-05-31T20:15:11 MYT" name="tearDown" finished-at="2026-05-31T20:15:11 MYT" duration-ms="582" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -626,64 +525,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F6_AddShippingAddressTest -->
       <class name="com.shopcart.tests.F4_SearchByCategoryTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F4_SearchByCategoryTest@47eaca72]" started-at="2026-05-31T19:51:41 MYT" name="setUp" finished-at="2026-05-31T19:51:45 MYT" duration-ms="3951" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F4_SearchByCategoryTest@47eaca72]" started-at="2026-05-31T20:12:52 MYT" name="setUp" finished-at="2026-05-31T20:12:54 MYT" duration-ms="2236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="categoriesPopupOpens()[pri:0, instance:com.shopcart.tests.F4_SearchByCategoryTest@47eaca72]" started-at="2026-05-31T19:51:45 MYT" name="categoriesPopupOpens" description="REQ_F400_1: Categories popup opens" finished-at="2026-05-31T19:51:45 MYT" duration-ms="561" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Expected at least one known category to render expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Expected at least one known category to render expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at com.shopcart.tests.F4_SearchByCategoryTest.categoriesPopupOpens(F4_SearchByCategoryTest.java:19)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="categoriesPopupOpens()[pri:0, instance:com.shopcart.tests.F4_SearchByCategoryTest@47eaca72]" started-at="2026-05-31T20:12:54 MYT" name="categoriesPopupOpens" description="REQ_F400_1: Categories popup opens" finished-at="2026-05-31T20:12:55 MYT" duration-ms="927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- categoriesPopupOpens -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F4_SearchByCategoryTest@47eaca72]" started-at="2026-05-31T19:51:45 MYT" name="tearDown" finished-at="2026-05-31T19:51:46 MYT" duration-ms="434" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F4_SearchByCategoryTest@47eaca72]" started-at="2026-05-31T20:12:55 MYT" name="tearDown" finished-at="2026-05-31T20:12:55 MYT" duration-ms="222" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=categoriesPopupOpens status=FAILURE method=F4_SearchByCategoryTest.categoriesPopupOpens()[pri:0, instance:com.shopcart.tests.F4_SearchByCategoryTest@47eaca72] output={null}]]]>
+                <![CDATA[[TestResult name=categoriesPopupOpens status=SUCCESS method=F4_SearchByCategoryTest.categoriesPopupOpens()[pri:0, instance:com.shopcart.tests.F4_SearchByCategoryTest@47eaca72] output={null}]]]>
               </value>
             </param>
           </params>
@@ -692,31 +546,31 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F4_SearchByCategoryTest -->
       <class name="com.shopcart.tests.F7_AddReviewRatingTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F7_AddReviewRatingTest@3270d194]" started-at="2026-05-31T19:52:58 MYT" name="setUp" finished-at="2026-05-31T19:53:00 MYT" duration-ms="2052" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F7_AddReviewRatingTest@3270d194]" started-at="2026-05-31T20:15:11 MYT" name="setUp" finished-at="2026-05-31T20:15:15 MYT" duration-ms="4031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addReviewHappyPath()[pri:0, instance:com.shopcart.tests.F7_AddReviewRatingTest@3270d194]" started-at="2026-05-31T19:53:00 MYT" name="addReviewHappyPath" description="REQ_F700_1: customer adds review + 5-star rating on owned order" finished-at="2026-05-31T19:53:21 MYT" duration-ms="21272" status="FAIL">
+        <test-method signature="addReviewHappyPath()[pri:0, instance:com.shopcart.tests.F7_AddReviewRatingTest@3270d194]" started-at="2026-05-31T20:15:15 MYT" name="addReviewHappyPath" description="REQ_F700_1: customer adds review + 5-star rating on owned order" finished-at="2026-05-31T20:15:38 MYT" duration-ms="22603" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //textarea | //input[@name='review'] (tried for 20 second(s) with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(@href,'/product/view/')])[1] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53279}, goog:processID: 9580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53279/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f18cf6003d9759afb4ce2c5f8bda29e]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57034}, goog:processID: 35332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57034/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df527debdb0ca3f68e02261395127e3c]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //textarea | //input[@name='review'] (tried for 20 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(@href,'/product/view/')])[1] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53279}, goog:processID: 9580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53279/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f18cf6003d9759afb4ce2c5f8bda29e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57034}, goog:processID: 35332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57034/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df527debdb0ca3f68e02261395127e3c
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.shopcart.utils.WaitUtils.waitVisible(WaitUtils.java:25)
-at com.shopcart.pages.ReviewPage.writeReview(ReviewPage.java:16)
+at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
+at com.shopcart.pages.ProductListPage.openFirstProduct(ProductListPage.java:18)
 at com.shopcart.tests.F7_AddReviewRatingTest.addReviewHappyPath(F7_AddReviewRatingTest.java:25)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -756,7 +610,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addReviewHappyPath -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F7_AddReviewRatingTest@3270d194]" started-at="2026-05-31T19:53:21 MYT" name="tearDown" finished-at="2026-05-31T19:53:23 MYT" duration-ms="1267" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F7_AddReviewRatingTest@3270d194]" started-at="2026-05-31T20:15:38 MYT" name="tearDown" finished-at="2026-05-31T20:15:39 MYT" duration-ms="570" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -769,13 +623,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F7_AddReviewRatingTest -->
     </test> <!-- customer-flow -->
-    <test started-at="2026-05-31T19:53:23 MYT" name="seller-flow" finished-at="2026-05-31T19:55:41 MYT" duration-ms="138227">
+    <test started-at="2026-05-31T20:15:39 MYT" name="seller-flow" finished-at="2026-05-31T20:17:10 MYT" duration-ms="91695">
       <class name="com.shopcart.tests.F12_DeleteCustomerReviewTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F12_DeleteCustomerReviewTest@33d512c1]" started-at="2026-05-31T19:54:25 MYT" name="setUp" finished-at="2026-05-31T19:54:27 MYT" duration-ms="2301" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F12_DeleteCustomerReviewTest@33d512c1]" started-at="2026-05-31T20:16:32 MYT" name="setUp" finished-at="2026-05-31T20:16:35 MYT" duration-ms="2215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="deleteReview()[pri:0, instance:com.shopcart.tests.F12_DeleteCustomerReviewTest@33d512c1]" started-at="2026-05-31T19:54:27 MYT" name="deleteReview" description="REQ_F1100_1: seller removes a customer review from a product" finished-at="2026-05-31T19:54:48 MYT" duration-ms="21447" status="FAIL">
+        <test-method signature="deleteReview()[pri:0, instance:com.shopcart.tests.F12_DeleteCustomerReviewTest@33d512c1]" started-at="2026-05-31T20:16:35 MYT" name="deleteReview" description="REQ_F1100_1: seller removes a customer review from a product" finished-at="2026-05-31T20:16:57 MYT" duration-ms="22564" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Reviews section did not load expected [true] but found [false]]]>
@@ -824,7 +678,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteReview -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F12_DeleteCustomerReviewTest@33d512c1]" started-at="2026-05-31T19:54:48 MYT" name="tearDown" finished-at="2026-05-31T19:54:49 MYT" duration-ms="695" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F12_DeleteCustomerReviewTest@33d512c1]" started-at="2026-05-31T20:16:57 MYT" name="tearDown" finished-at="2026-05-31T20:16:58 MYT" duration-ms="708" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -837,94 +691,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F12_DeleteCustomerReviewTest -->
       <class name="com.shopcart.tests.F9_DeleteProductTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F9_DeleteProductTest@41d477ed]" started-at="2026-05-31T19:53:51 MYT" name="setUp" finished-at="2026-05-31T19:53:55 MYT" duration-ms="3248" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F9_DeleteProductTest@41d477ed]" started-at="2026-05-31T20:15:56 MYT" name="setUp" finished-at="2026-05-31T20:15:59 MYT" duration-ms="2608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="deleteProduct()[pri:0, instance:com.shopcart.tests.F9_DeleteProductTest@41d477ed]" started-at="2026-05-31T19:53:55 MYT" name="deleteProduct" description="REQ_F900_1: seller deletes a product; removed from list" finished-at="2026-05-31T19:53:56 MYT" duration-ms="1044" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: stale element not found in the current frame
-  (Session info: chrome=148.0.7778.179)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5387d0e836e94f604b9e630e86ef8a58, clickElement {id=f.CB0718200C98694AE824FE59D0307F2E.d.2D9D3D028D0DA9D8A91ABCD2D7C49327.e.17}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54071}, goog:processID: 2548, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54071/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5387d0e836e94f604b9e630e86ef8a58)] -> xpath: //*[contains(text(),'Products') or contains(text(),'Show Products')]]
-Session ID: 5387d0e836e94f604b9e630e86ef8a58]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
-  (Session info: chrome=148.0.7778.179)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5387d0e836e94f604b9e630e86ef8a58, clickElement {id=f.CB0718200C98694AE824FE59D0307F2E.d.2D9D3D028D0DA9D8A91ABCD2D7C49327.e.17}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54071}, goog:processID: 2548, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54071/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5387d0e836e94f604b9e630e86ef8a58)] -> xpath: //*[contains(text(),'Products') or contains(text(),'Show Products')]]
-Session ID: 5387d0e836e94f604b9e630e86ef8a58
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at com.shopcart.pages.SellerDashboardPage.gotoProducts(SellerDashboardPage.java:19)
-at com.shopcart.tests.F9_DeleteProductTest.deleteProduct(F9_DeleteProductTest.java:25)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+        <test-method signature="deleteProduct()[pri:0, instance:com.shopcart.tests.F9_DeleteProductTest@41d477ed]" started-at="2026-05-31T20:15:59 MYT" name="deleteProduct" description="REQ_F900_1: seller deletes a product; removed from list" finished-at="2026-05-31T20:16:01 MYT" duration-ms="2155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteProduct -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F9_DeleteProductTest@41d477ed]" started-at="2026-05-31T19:53:56 MYT" name="tearDown" finished-at="2026-05-31T19:53:56 MYT" duration-ms="670" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F9_DeleteProductTest@41d477ed]" started-at="2026-05-31T20:16:01 MYT" name="tearDown" finished-at="2026-05-31T20:16:02 MYT" duration-ms="345" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=deleteProduct status=FAILURE method=F9_DeleteProductTest.deleteProduct()[pri:0, instance:com.shopcart.tests.F9_DeleteProductTest@41d477ed] output={null}]]]>
+                <![CDATA[[TestResult name=deleteProduct status=SUCCESS method=F9_DeleteProductTest.deleteProduct()[pri:0, instance:com.shopcart.tests.F9_DeleteProductTest@41d477ed] output={null}]]]>
               </value>
             </param>
           </params>
@@ -933,15 +712,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F9_DeleteProductTest -->
       <class name="com.shopcart.tests.F11_ViewProductsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F11_ViewProductsTest@397fbdb]" started-at="2026-05-31T19:54:22 MYT" name="setUp" finished-at="2026-05-31T19:54:24 MYT" duration-ms="1919" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F11_ViewProductsTest@397fbdb]" started-at="2026-05-31T20:16:28 MYT" name="setUp" finished-at="2026-05-31T20:16:30 MYT" duration-ms="2828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="viewProducts()[pri:0, instance:com.shopcart.tests.F11_ViewProductsTest@397fbdb]" started-at="2026-05-31T19:54:24 MYT" name="viewProducts" description="REQ_F1000_1: seller dashboard lists own products" finished-at="2026-05-31T19:54:25 MYT" duration-ms="885" status="PASS">
+        <test-method signature="viewProducts()[pri:0, instance:com.shopcart.tests.F11_ViewProductsTest@397fbdb]" started-at="2026-05-31T20:16:30 MYT" name="viewProducts" description="REQ_F1000_1: seller dashboard lists own products" finished-at="2026-05-31T20:16:32 MYT" duration-ms="1848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewProducts -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F11_ViewProductsTest@397fbdb]" started-at="2026-05-31T19:54:25 MYT" name="tearDown" finished-at="2026-05-31T19:54:25 MYT" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F11_ViewProductsTest@397fbdb]" started-at="2026-05-31T20:16:32 MYT" name="tearDown" finished-at="2026-05-31T20:16:32 MYT" duration-ms="255" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -954,75 +733,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F11_ViewProductsTest -->
       <class name="com.shopcart.tests.F14_ViewOutForDeliveryTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F14_ViewOutForDeliveryTest@639c2c1d]" started-at="2026-05-31T19:55:13 MYT" name="setUp" finished-at="2026-05-31T19:55:18 MYT" duration-ms="4972" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F14_ViewOutForDeliveryTest@639c2c1d]" started-at="2026-05-31T20:17:03 MYT" name="setUp" finished-at="2026-05-31T20:17:07 MYT" duration-ms="4611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="viewOutForDelivery()[pri:0, instance:com.shopcart.tests.F14_ViewOutForDeliveryTest@639c2c1d]" started-at="2026-05-31T19:55:18 MYT" name="viewOutForDelivery" description="REQ_F1300_1: seller views out-for-delivery products" finished-at="2026-05-31T19:55:40 MYT" duration-ms="21551" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),'Orders')] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62692}, goog:processID: 39952, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62692/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e407c402b175012582d16d2dee448c43]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),'Orders')] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62692}, goog:processID: 39952, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62692/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e407c402b175012582d16d2dee448c43
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
-at com.shopcart.pages.SellerDashboardPage.gotoOrders(SellerDashboardPage.java:24)
-at com.shopcart.tests.F14_ViewOutForDeliveryTest.viewOutForDelivery(F14_ViewOutForDeliveryTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="viewOutForDelivery()[pri:0, instance:com.shopcart.tests.F14_ViewOutForDeliveryTest@639c2c1d]" started-at="2026-05-31T20:17:07 MYT" name="viewOutForDelivery" description="REQ_F1300_1: seller views out-for-delivery products" finished-at="2026-05-31T20:17:10 MYT" duration-ms="2424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewOutForDelivery -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F14_ViewOutForDeliveryTest@639c2c1d]" started-at="2026-05-31T19:55:40 MYT" name="tearDown" finished-at="2026-05-31T19:55:41 MYT" duration-ms="983" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F14_ViewOutForDeliveryTest@639c2c1d]" started-at="2026-05-31T20:17:10 MYT" name="tearDown" finished-at="2026-05-31T20:17:10 MYT" duration-ms="426" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=viewOutForDelivery status=FAILURE method=F14_ViewOutForDeliveryTest.viewOutForDelivery()[pri:0, instance:com.shopcart.tests.F14_ViewOutForDeliveryTest@639c2c1d] output={null}]]]>
+                <![CDATA[[TestResult name=viewOutForDelivery status=SUCCESS method=F14_ViewOutForDeliveryTest.viewOutForDelivery()[pri:0, instance:com.shopcart.tests.F14_ViewOutForDeliveryTest@639c2c1d] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1030,105 +753,28 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F14_ViewOutForDeliveryTest -->
-      <class name="com.shopcart.tests.F13_ViewAddedToCartTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F13_ViewAddedToCartTest@515c6049]" started-at="2026-05-31T19:54:49 MYT" name="setUp" finished-at="2026-05-31T19:54:51 MYT" duration-ms="2179" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="viewAddedToCart()[pri:0, instance:com.shopcart.tests.F13_ViewAddedToCartTest@515c6049]" started-at="2026-05-31T19:54:51 MYT" name="viewAddedToCart" description="REQ_F1200_1: seller views products customers added to carts" finished-at="2026-05-31T19:55:13 MYT" duration-ms="21320" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),'Orders')] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57181}, goog:processID: 32364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57181/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d08de271172007dc96c9cea561e9b8fe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),'Orders')] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57181}, goog:processID: 32364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57181/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d08de271172007dc96c9cea561e9b8fe
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
-at com.shopcart.pages.SellerDashboardPage.gotoOrders(SellerDashboardPage.java:24)
-at com.shopcart.tests.F13_ViewAddedToCartTest.viewAddedToCart(F13_ViewAddedToCartTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- viewAddedToCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F13_ViewAddedToCartTest@515c6049]" started-at="2026-05-31T19:55:13 MYT" name="tearDown" finished-at="2026-05-31T19:55:13 MYT" duration-ms="663" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=viewAddedToCart status=FAILURE method=F13_ViewAddedToCartTest.viewAddedToCart()[pri:0, instance:com.shopcart.tests.F13_ViewAddedToCartTest@515c6049] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.shopcart.tests.F13_ViewAddedToCartTest -->
       <class name="com.shopcart.tests.F10_EditProductTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F10_EditProductTest@3590fc5b]" started-at="2026-05-31T19:53:56 MYT" name="setUp" finished-at="2026-05-31T19:53:59 MYT" duration-ms="3014" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F10_EditProductTest@3590fc5b]" started-at="2026-05-31T20:16:02 MYT" name="setUp" finished-at="2026-05-31T20:16:05 MYT" duration-ms="3234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="editProduct()[pri:0, instance:com.shopcart.tests.F10_EditProductTest@3590fc5b]" started-at="2026-05-31T19:53:59 MYT" name="editProduct" description="REQ_IO0100_1: seller edits a product price and update persists" finished-at="2026-05-31T19:54:21 MYT" duration-ms="21774" status="FAIL">
+        <test-method signature="editProduct()[pri:0, instance:com.shopcart.tests.F10_EditProductTest@3590fc5b]" started-at="2026-05-31T20:16:05 MYT" name="editProduct" description="REQ_IO0100_1: seller edits a product price and update persists" finished-at="2026-05-31T20:16:27 MYT" duration-ms="22281" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: (//button[contains(text(),'Edit') or contains(text(),'EDIT')])[1] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59588}, goog:processID: 39632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59588/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 13b82cc0d4edb5d8e1c8d3fdad55b17a]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53957}, goog:processID: 39840, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53957/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5355446704f098c16a8660db8ad11e2f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//button[contains(text(),'Edit') or contains(text(),'EDIT')])[1] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59588}, goog:processID: 39632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59588/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 13b82cc0d4edb5d8e1c8d3fdad55b17a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53957}, goog:processID: 39840, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53957/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5355446704f098c16a8660db8ad11e2f
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
@@ -1171,7 +817,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editProduct -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F10_EditProductTest@3590fc5b]" started-at="2026-05-31T19:54:21 MYT" name="tearDown" finished-at="2026-05-31T19:54:22 MYT" duration-ms="563" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F10_EditProductTest@3590fc5b]" started-at="2026-05-31T20:16:27 MYT" name="tearDown" finished-at="2026-05-31T20:16:28 MYT" duration-ms="419" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1183,37 +829,77 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F10_EditProductTest -->
-      <class name="com.shopcart.tests.F8_AddProductTest">
-        <test-method is-config="true" signature="initReport()[pri:0, instance:com.shopcart.tests.F8_AddProductTest@78691363]" started-at="2026-05-31T19:50:06 MYT" name="initReport" finished-at="2026-05-31T19:50:06 MYT" duration-ms="233" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F8_AddProductTest@78691363]" started-at="2026-05-31T19:53:23 MYT" name="setUp" finished-at="2026-05-31T19:53:29 MYT" duration-ms="6114" status="PASS">
+      <class name="com.shopcart.tests.F13_ViewAddedToCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F13_ViewAddedToCartTest@515c6049]" started-at="2026-05-31T20:16:58 MYT" name="setUp" finished-at="2026-05-31T20:17:00 MYT" duration-ms="2359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addProductHappyPath()[pri:0, instance:com.shopcart.tests.F8_AddProductTest@78691363]" started-at="2026-05-31T19:53:29 MYT" name="addProductHappyPath" description="REQ_F800_1: seller adds new product appears in list" finished-at="2026-05-31T19:53:51 MYT" duration-ms="21976" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method signature="viewAddedToCart()[pri:0, instance:com.shopcart.tests.F13_ViewAddedToCartTest@515c6049]" started-at="2026-05-31T20:17:00 MYT" name="viewAddedToCart" description="REQ_F1200_1: seller views products customers added to carts" finished-at="2026-05-31T20:17:02 MYT" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewAddedToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F13_ViewAddedToCartTest@515c6049]" started-at="2026-05-31T20:17:02 MYT" name="tearDown" finished-at="2026-05-31T20:17:03 MYT" duration-ms="400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=viewAddedToCart status=SUCCESS method=F13_ViewAddedToCartTest.viewAddedToCart()[pri:0, instance:com.shopcart.tests.F13_ViewAddedToCartTest@515c6049] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shopcart.tests.F13_ViewAddedToCartTest -->
+      <class name="com.shopcart.tests.F8_AddProductTest">
+        <test-method is-config="true" signature="initReport()[pri:0, instance:com.shopcart.tests.F8_AddProductTest@78691363]" started-at="2026-05-31T20:11:17 MYT" name="initReport" finished-at="2026-05-31T20:11:17 MYT" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F8_AddProductTest@78691363]" started-at="2026-05-31T20:15:39 MYT" name="setUp" finished-at="2026-05-31T20:15:41 MYT" duration-ms="2778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductHappyPath()[pri:0, instance:com.shopcart.tests.F8_AddProductTest@78691363]" started-at="2026-05-31T20:15:41 MYT" name="addProductHappyPath" description="REQ_F800_1: seller adds new product appears in list" finished-at="2026-05-31T20:15:56 MYT" duration-ms="14395" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),'Add Product') or contains(text(),'ADD PRODUCT')] (tried for 20 second(s) with 500 milliseconds interval)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(text(),'tagline')]/following::input[1]"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54557}, goog:processID: 27116, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54557/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e9a859a49aef62b53bc4a4e4d58360e]]>
+Command: [9e239d7661e6956e68ff46ace2662b66, findElement {using=xpath, value=//label[contains(text(),'tagline')]/following::input[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64658}, goog:processID: 27232, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64658/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e239d7661e6956e68ff46ace2662b66]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(),'Add Product') or contains(text(),'ADD PRODUCT')] (tried for 20 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(text(),'tagline')]/following::input[1]"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54557}, goog:processID: 27116, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54557/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e9a859a49aef62b53bc4a4e4d58360e
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.shopcart.utils.WaitUtils.waitClickable(WaitUtils.java:20)
-at com.shopcart.pages.SellerDashboardPage.gotoAddProduct(SellerDashboardPage.java:12)
-at com.shopcart.tests.F8_AddProductTest.addProductHappyPath(F8_AddProductTest.java:26)
+Command: [9e239d7661e6956e68ff46ace2662b66, findElement {using=xpath, value=//label[contains(text(),'tagline')]/following::input[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\WinDows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64658}, goog:processID: 27232, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64658/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e239d7661e6956e68ff46ace2662b66
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at com.shopcart.pages.SellerAddProductPage.fill(SellerAddProductPage.java:27)
+at com.shopcart.tests.F8_AddProductTest.addProductHappyPath(F8_AddProductTest.java:27)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1248,11 +934,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductHappyPath -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F8_AddProductTest@78691363]" started-at="2026-05-31T19:53:51 MYT" name="tearDown" finished-at="2026-05-31T19:53:51 MYT" duration-ms="702" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F8_AddProductTest@78691363]" started-at="2026-05-31T20:15:56 MYT" name="tearDown" finished-at="2026-05-31T20:15:56 MYT" duration-ms="718" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1263,7 +949,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.shopcart.tests.F8_AddProductTest@78691363]" started-at="2026-05-31T19:55:41 MYT" name="flushReport" finished-at="2026-05-31T19:55:41 MYT" duration-ms="318" status="PASS">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.shopcart.tests.F8_AddProductTest@78691363]" started-at="2026-05-31T20:17:10 MYT" name="flushReport" finished-at="2026-05-31T20:17:11 MYT" duration-ms="994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->

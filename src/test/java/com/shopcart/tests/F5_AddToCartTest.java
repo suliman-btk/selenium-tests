@@ -17,10 +17,11 @@ public class F5_AddToCartTest extends BaseTest {
         startTest("REQ_F500_1 Add To Cart",
                 "Customer logs in, opens a product, clicks ADD TO CART successfully");
         JsonNode u = JsonDataReader.users().get("customer");
-        new LoginPage(driver).openCustomer()
+        LoginPage login = new LoginPage(driver).openCustomer()
                 .typeEmail(u.get("email").asText())
                 .typePassword(u.get("password").asText())
                 .submit();
+        login.loggedIn();
         new ProductListPage(driver).open().openFirstProduct();
         ViewProductPage vp = new ViewProductPage(driver);
         Assert.assertTrue(vp.addToCartVisible(), "Add To Cart button not visible");

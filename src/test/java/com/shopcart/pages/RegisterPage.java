@@ -3,6 +3,9 @@ package com.shopcart.pages;
 import com.shopcart.utils.WaitUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import java.time.Duration;
 
 public class RegisterPage extends BasePage {
 
@@ -52,6 +55,13 @@ public class RegisterPage extends BasePage {
     public boolean passRequiredShown()  { return !driver.findElements(passHelper).isEmpty(); }
 
     public boolean registeredSuccessfully() {
-        return !currentUrl().contains("register");
+        try {
+            new WebDriverWait(driver, Duration.ofSeconds(20))
+                    .until(ExpectedConditions.not(
+                            ExpectedConditions.urlContains("register")));
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 }

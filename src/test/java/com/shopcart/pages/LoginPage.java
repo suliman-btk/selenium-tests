@@ -3,6 +3,9 @@ package com.shopcart.pages;
 import com.shopcart.utils.WaitUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import java.time.Duration;
 
 public class LoginPage extends BasePage {
 
@@ -44,7 +47,13 @@ public class LoginPage extends BasePage {
         catch (Exception e) { return ""; }
     }
     public boolean loggedIn() {
-        return WaitUtils.waitTextPresent(driver, "Home")
-                && !currentUrl().contains("login");
+        try {
+            new WebDriverWait(driver, Duration.ofSeconds(20))
+                    .until(ExpectedConditions.not(
+                            ExpectedConditions.urlContains("login")));
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 }

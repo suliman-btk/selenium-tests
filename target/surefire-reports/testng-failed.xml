@@ -44,16 +44,6 @@
           <include name="addAsCustomer"/>
         </methods>
       </class> <!-- com.shopcart.tests.F5_AddToCartTest -->
-      <class name="com.shopcart.tests.F3_SearchByNameTest">
-        <methods>
-          <include name="searchKnownProduct"/>
-          <include name="tearDown"/>
-          <include name="flushReport"/>
-          <include name="searchGibberish"/>
-          <include name="setUp"/>
-          <include name="initReport"/>
-        </methods>
-      </class> <!-- com.shopcart.tests.F3_SearchByNameTest -->
       <class name="com.shopcart.tests.F4_SearchByCategoryTest">
         <methods>
           <include name="tearDown"/>
@@ -77,15 +67,6 @@
   </test> <!-- customer-flow(failed) -->
   <test thread-count="5" name="seller-flow(failed)" verbose="0">
     <classes>
-      <class name="com.shopcart.tests.F11_ViewProductsTest">
-        <methods>
-          <include name="viewProducts"/>
-          <include name="tearDown"/>
-          <include name="flushReport"/>
-          <include name="setUp"/>
-          <include name="initReport"/>
-        </methods>
-      </class> <!-- com.shopcart.tests.F11_ViewProductsTest -->
       <class name="com.shopcart.tests.F8_AddProductTest">
         <methods>
           <include name="addProductHappyPath"/>

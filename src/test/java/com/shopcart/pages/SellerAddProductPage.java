@@ -24,7 +24,7 @@ public class SellerAddProductPage extends BasePage {
         driver.findElement(labelInput("Discount")).sendKeys(discount);
         driver.findElement(labelInput("Category")).sendKeys(category);
         driver.findElement(labelInput("Subcategory")).sendKeys(subcat);
-        driver.findElement(labelInput("tagline")).sendKeys(tagline);
+        driver.findElement(labelInput("Tagline")).sendKeys(tagline);
         return this;
     }
 

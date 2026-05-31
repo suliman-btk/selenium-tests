@@ -35,9 +35,10 @@ public class F1_SignUpTest extends BaseTest {
         startTest("REQ_F100_1 Seller Signup Happy Path",
                 "Seller fills name, shopName, email, password; account created");
         JsonNode u = JsonDataReader.users().get("seller");
+        String uniqueShop = "TestShop-" + UUID.randomUUID().toString().substring(0, 8);
         RegisterPage page = new RegisterPage(driver).openSeller()
                 .fillName(u.get("name").asText())
-                .fillShopName(u.get("shopName").asText())
+                .fillShopName(uniqueShop)
                 .fillEmail(unique("seller"))
                 .fillPassword(u.get("password").asText())
                 .submit();

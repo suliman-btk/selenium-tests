@@ -12,6 +12,11 @@ public class ReviewPage extends BasePage {
 
     public ReviewPage(WebDriver driver) { super(driver); }
 
+    public ReviewPage openForProduct(String productId) {
+        navigateSPA("/order/view/" + productId);
+        return this;
+    }
+
     public ReviewPage writeReview(String text, int rating) {
         WaitUtils.waitVisible(driver, reviewText).sendKeys(text);
         try { driver.findElement(star).click(); } catch (Exception ignored) {}

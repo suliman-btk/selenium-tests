@@ -9,7 +9,7 @@ import com.shopcart.utils.JsonDataReader;
 import org.testng.annotations.Test;
 
 /** SRS 3.2.7 — Add Review & Rating. REQ_F700, REQ_IO070.
- *  Requires a prior order on the test customer's account. */
+ *  Review form lives at /order/view/:productId (ViewOrder), not ViewProduct. */
 public class F7_AddReviewRatingTest extends BaseTest {
 
     @Test(description = "REQ_F700_1: customer adds review + 5-star rating on owned order")
@@ -22,7 +22,15 @@ public class F7_AddReviewRatingTest extends BaseTest {
                 .typePassword(u.get("password").asText())
                 .submit();
         login.loggedIn();
+
+        // Navigate to products, click first product to land on /product/view/:id
         new ProductListPage(driver).open().openFirstProduct();
-        new ReviewPage(driver).writeReview("Great product!", 5);
+
+        // Extract product ID from current URL (/product/view/:id)
+        String url = driver.getCurrentUrl();
+        String productId = url.substring(url.lastIndexOf("/") + 1);
+
+        // ViewOrder (/order/view/:productId) has the review textarea — ViewProduct does not
+        new ReviewPage(driver).openForProduct(productId).writeReview("Great product!", 5);
     }
 }

@@ -1,15 +1,49 @@
 package com.shopcart.tests;
 
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.shopcart.base.BaseTest;
 import com.shopcart.pages.CheckoutShippingPage;
 import com.shopcart.pages.LoginPage;
 import com.shopcart.utils.JsonDataReader;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
 
 /** SRS 3.2.6 — Add Shipping Address. REQ_F600, REQ_IO060. */
 public class F6_AddShippingAddressTest extends BaseTest {
+
+    @BeforeClass
+    public void clearShippingData() throws Exception {
+        JsonNode u = JsonDataReader.users().get("customer");
+        HttpClient http = HttpClient.newHttpClient();
+
+        // Login to get customer ID
+        String loginBody = String.format(
+            "{\"email\":\"%s\",\"password\":\"%s\"}",
+            u.get("email").asText(), u.get("password").asText());
+        HttpRequest loginReq = HttpRequest.newBuilder()
+            .uri(URI.create("http://localhost:5000/CustomerLogin"))
+            .header("Content-Type", "application/json")
+            .POST(HttpRequest.BodyPublishers.ofString(loginBody))
+            .build();
+        String loginResp = http.send(loginReq, HttpResponse.BodyHandlers.ofString()).body();
+        String customerId = new ObjectMapper().readTree(loginResp).get("_id").asText();
+
+        // Empty object → Object.keys(shippingData).length === 0 → ShippingPage shows input form
+        String clearBody = "{\"shippingData\":{}}";
+        HttpRequest clearReq = HttpRequest.newBuilder()
+            .uri(URI.create("http://localhost:5000/CustomerUpdate/" + customerId))
+            .header("Content-Type", "application/json")
+            .PUT(HttpRequest.BodyPublishers.ofString(clearBody))
+            .build();
+        http.send(clearReq, HttpResponse.BodyHandlers.ofString());
+    }
 
     private void loginCustomer() {
         JsonNode u = JsonDataReader.users().get("customer");

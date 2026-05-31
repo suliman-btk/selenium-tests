@@ -23,7 +23,10 @@ public class F10_EditProductTest extends BaseTest {
                 .typePassword(seller.get("password").asText())
                 .submit();
         new SellerDashboardPage(driver).gotoProducts();
-        By editBtn = By.xpath("(//button[contains(text(),'Edit') or contains(text(),'EDIT')])[1]");
+        // Click View on first product to open product detail (edit button is inside)
+        By viewBtn = By.xpath("(//button[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'VIEW')])[1]");
+        WaitUtils.waitClickable(driver, viewBtn).click();
+        By editBtn = By.xpath("//button[contains(text(),'Edit product details')]");
         WaitUtils.waitClickable(driver, editBtn).click();
         Assert.assertTrue(true, "Edit form opened; tester completes save assertion");
     }

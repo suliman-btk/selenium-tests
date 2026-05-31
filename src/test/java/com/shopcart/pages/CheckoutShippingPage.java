@@ -14,7 +14,7 @@ public class CheckoutShippingPage extends BasePage {
 
     public CheckoutShippingPage(WebDriver driver) { super(driver); }
 
-    public CheckoutShippingPage open() { go("/Checkout"); return this; }
+    public CheckoutShippingPage open() { navigateSPA("/Checkout"); return this; }
 
     public CheckoutShippingPage fillAll(String address, String city, String pin,
                                         String country, String state, String phone) {

@@ -23,15 +23,17 @@ public class F12_DeleteCustomerReviewTest extends BaseTest {
                 .typePassword(seller.get("password").asText())
                 .submit();
         new SellerDashboardPage(driver).gotoProducts();
-        By removeBtn = By.xpath("(//*[contains(@aria-label,'remove') or contains(@class,'Delete')])[1]");
+        // Open first product detail (reviews are on product detail page)
+        By viewBtn = By.xpath("(//button[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'VIEW')])[1]");
+        WaitUtils.waitClickable(driver, viewBtn).click();
+        By removeBtn = By.xpath("(//*[contains(@aria-label,'remove') or contains(@class,'Delete') or contains(@aria-label,'delete')])[1]");
         try {
             WaitUtils.waitClickable(driver, removeBtn).click();
         } catch (Exception ignored) {
-            // Acceptable: no reviews → "No review found"
+            // Acceptable: no reviews → review section still loads
         }
         Assert.assertTrue(
-                driver.getPageSource().toLowerCase().contains("review")
-                        || driver.getPageSource().toLowerCase().contains("no review"),
+                WaitUtils.waitTextPresent(driver, "Reviews"),
                 "Reviews section did not load");
     }
 }

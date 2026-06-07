@@ -6,24 +6,27 @@ import org.openqa.selenium.WebDriver;
 
 public class CheckoutShippingPage extends BasePage {
 
-    private By labelInput(String label) {
-        return By.xpath("//label[contains(text(),'" + label + "')]/following::input[1]");
-    }
-
-    private final By next = By.xpath("//button[contains(text(),'Next') or contains(text(),'NEXT')]");
+    private final By address = By.id("address");
+    private final By city    = By.id("city");
+    private final By pin     = By.id("pinCode");
+    private final By country = By.id("country");
+    private final By state   = By.id("state");
+    private final By phone   = By.id("phoneNo");
+    private final By next = By.xpath(
+        "//button[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'NEXT')]");
 
     public CheckoutShippingPage(WebDriver driver) { super(driver); }
 
     public CheckoutShippingPage open() { navigateSPA("/Checkout"); return this; }
 
-    public CheckoutShippingPage fillAll(String address, String city, String pin,
-                                        String country, String state, String phone) {
-        WaitUtils.waitVisible(driver, labelInput("Address")).sendKeys(address);
-        driver.findElement(labelInput("City")).sendKeys(city);
-        driver.findElement(labelInput("Zip")).sendKeys(pin);
-        driver.findElement(labelInput("Country")).sendKeys(country);
-        driver.findElement(labelInput("State")).sendKeys(state);
-        driver.findElement(labelInput("Phone")).sendKeys(phone);
+    public CheckoutShippingPage fillAll(String addr, String cty, String zip,
+                                        String ctry, String st, String ph) {
+        clearAndType(address, addr);
+        clearAndType(city, cty);
+        clearAndType(pin, zip);
+        clearAndType(country, ctry);
+        clearAndType(state, st);
+        clearAndType(phone, ph);
         return this;
     }
 

@@ -22,13 +22,11 @@ public class LoginPage extends BasePage {
     public LoginPage openSeller()   { go("/Sellerlogin"); return this; }
 
     public LoginPage typeEmail(String v) {
-        WaitUtils.waitVisible(driver, email).clear();
-        driver.findElement(email).sendKeys(v);
+        clearAndType(email, v);
         return this;
     }
     public LoginPage typePassword(String v) {
-        driver.findElement(password).clear();
-        driver.findElement(password).sendKeys(v);
+        clearAndType(password, v);
         return this;
     }
     public LoginPage submit() {

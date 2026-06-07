@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-31T20:50:02 MYT" name="ShopCart E2E Suite" finished-at="2026-05-31T20:52:54 MYT" duration-ms="172425">
+  <suite started-at="2026-06-07T07:09:24 MYT" name="ShopCart E2E Suite" finished-at="2026-06-07T07:18:26 MYT" duration-ms="541987">
     <groups>
     </groups>
-    <test started-at="2026-05-31T20:50:02 MYT" name="auth-validation" finished-at="2026-05-31T20:50:46 MYT" duration-ms="44336">
+    <test started-at="2026-06-07T07:09:24 MYT" name="auth-validation" finished-at="2026-06-07T07:13:01 MYT" duration-ms="216826">
       <class name="com.shopcart.tests.F2_SignInTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:24 MYT" name="setUp" finished-at="2026-05-31T20:50:26 MYT" duration-ms="2366" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:11:13 MYT" name="setUp" finished-at="2026-06-07T07:11:25 MYT" duration-ms="11373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="customerLoginHappyPath()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:26 MYT" name="customerLoginHappyPath" description="REQ_F200_5: valid customer login redirects to home" finished-at="2026-05-31T20:50:28 MYT" duration-ms="1498" status="PASS">
+        <test-method signature="customerLoginHappyPath()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:11:25 MYT" name="customerLoginHappyPath" description="REQ_F200_5: valid customer login redirects to home" finished-at="2026-06-07T07:11:32 MYT" duration-ms="7658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customerLoginHappyPath -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:28 MYT" name="tearDown" finished-at="2026-05-31T20:50:28 MYT" duration-ms="418" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:11:32 MYT" name="tearDown" finished-at="2026-06-07T07:11:33 MYT" duration-ms="510" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:28 MYT" name="setUp" finished-at="2026-05-31T20:50:31 MYT" duration-ms="2300" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:11:33 MYT" name="setUp" finished-at="2026-06-07T07:11:37 MYT" duration-ms="4151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="emptyEmail()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:31 MYT" name="emptyEmail" description="REQ_IO010_5: empty email shows &#039;Email is required&#039;" finished-at="2026-05-31T20:50:31 MYT" duration-ms="691" status="PASS">
+        <test-method signature="emptyEmail()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:11:37 MYT" name="emptyEmail" description="REQ_IO010_5: empty email shows &#039;Email is required&#039;" finished-at="2026-06-07T07:11:45 MYT" duration-ms="8206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyEmail -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:31 MYT" name="tearDown" finished-at="2026-05-31T20:50:32 MYT" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:11:45 MYT" name="tearDown" finished-at="2026-06-07T07:11:49 MYT" duration-ms="3585" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,15 +45,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:32 MYT" name="setUp" finished-at="2026-05-31T20:50:34 MYT" duration-ms="2258" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:11:49 MYT" name="setUp" finished-at="2026-06-07T07:11:56 MYT" duration-ms="7745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="emptyPassword()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:34 MYT" name="emptyPassword" description="REQ_IO010_6: empty password shows &#039;Password is required&#039;" finished-at="2026-05-31T20:50:35 MYT" duration-ms="770" status="PASS">
+        <test-method signature="emptyPassword()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:11:56 MYT" name="emptyPassword" description="REQ_IO010_6: empty password shows &#039;Password is required&#039;" finished-at="2026-06-07T07:12:00 MYT" duration-ms="4007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyPassword -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:35 MYT" name="tearDown" finished-at="2026-05-31T20:50:35 MYT" duration-ms="201" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:12:00 MYT" name="tearDown" finished-at="2026-06-07T07:12:03 MYT" duration-ms="2591" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,15 +64,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:35 MYT" name="setUp" finished-at="2026-05-31T20:50:37 MYT" duration-ms="2366" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:12:03 MYT" name="setUp" finished-at="2026-06-07T07:12:09 MYT" duration-ms="6044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sellerLoginHappyPath()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:37 MYT" name="sellerLoginHappyPath" description="REQ_F200_5: valid seller login redirects to dashboard" finished-at="2026-05-31T20:50:39 MYT" duration-ms="1655" status="PASS">
+        <test-method signature="sellerLoginHappyPath()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:12:09 MYT" name="sellerLoginHappyPath" description="REQ_F200_5: valid seller login redirects to dashboard" finished-at="2026-06-07T07:12:13 MYT" duration-ms="4127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sellerLoginHappyPath -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:39 MYT" name="tearDown" finished-at="2026-05-31T20:50:39 MYT" duration-ms="213" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:12:13 MYT" name="tearDown" finished-at="2026-06-07T07:12:14 MYT" duration-ms="820" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,15 +83,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:39 MYT" name="setUp" finished-at="2026-05-31T20:50:42 MYT" duration-ms="2560" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:12:14 MYT" name="setUp" finished-at="2026-06-07T07:12:40 MYT" duration-ms="25802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="unknownUser()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:42 MYT" name="unknownUser" description="REQ_IO010_4: unknown user shows &#039;User not found&#039; popup" finished-at="2026-05-31T20:50:43 MYT" duration-ms="1176" status="PASS">
+        <test-method signature="unknownUser()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:12:40 MYT" name="unknownUser" description="REQ_IO010_4: unknown user shows &#039;User not found&#039; popup" finished-at="2026-06-07T07:12:45 MYT" duration-ms="5327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unknownUser -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:43 MYT" name="tearDown" finished-at="2026-05-31T20:50:43 MYT" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:12:45 MYT" name="tearDown" finished-at="2026-06-07T07:12:47 MYT" duration-ms="1610" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,15 +102,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:43 MYT" name="setUp" finished-at="2026-05-31T20:50:45 MYT" duration-ms="2147" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:12:47 MYT" name="setUp" finished-at="2026-06-07T07:12:54 MYT" duration-ms="7310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="wrongPassword()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:45 MYT" name="wrongPassword" description="REQ_IO010_7: wrong password shows &#039;Invalid Password&#039; popup" finished-at="2026-05-31T20:50:46 MYT" duration-ms="1096" status="PASS">
+        <test-method signature="wrongPassword()[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:12:54 MYT" name="wrongPassword" description="REQ_IO010_7: wrong password shows &#039;Invalid Password&#039; popup" finished-at="2026-06-07T07:13:00 MYT" duration-ms="5532" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrongPassword -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-05-31T20:50:46 MYT" name="tearDown" finished-at="2026-05-31T20:50:46 MYT" duration-ms="192" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F2_SignInTest@5158b42f]" started-at="2026-06-07T07:13:00 MYT" name="tearDown" finished-at="2026-06-07T07:13:01 MYT" duration-ms="1611" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,15 +123,15 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F2_SignInTest -->
       <class name="com.shopcart.tests.F1_SignUpTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:50:02 MYT" name="setUp" finished-at="2026-05-31T20:50:06 MYT" duration-ms="3726" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-06-07T07:09:24 MYT" name="setUp" finished-at="2026-06-07T07:09:40 MYT" duration-ms="15556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="customerSignupHappyPath()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:50:06 MYT" name="customerSignupHappyPath" description="REQ_F100_1: valid customer signup creates account" finished-at="2026-05-31T20:50:09 MYT" duration-ms="2714" status="PASS">
+        <test-method signature="customerSignupHappyPath()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-06-07T07:09:40 MYT" name="customerSignupHappyPath" description="REQ_F100_1: valid customer signup creates account" finished-at="2026-06-07T07:09:49 MYT" duration-ms="8701" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customerSignupHappyPath -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:50:09 MYT" name="tearDown" finished-at="2026-05-31T20:50:09 MYT" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-06-07T07:09:49 MYT" name="tearDown" finished-at="2026-06-07T07:09:51 MYT" duration-ms="2065" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,15 +142,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:50:09 MYT" name="setUp" finished-at="2026-05-31T20:50:11 MYT" duration-ms="2245" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-06-07T07:09:51 MYT" name="setUp" finished-at="2026-06-07T07:09:56 MYT" duration-ms="5111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="emptyEmail()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:50:11 MYT" name="emptyEmail" description="REQ_IO020_6: missing email shows &#039;Email is required&#039;" finished-at="2026-05-31T20:50:12 MYT" duration-ms="952" status="PASS">
+        <test-method signature="emptyEmail()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-06-07T07:09:56 MYT" name="emptyEmail" description="REQ_IO020_6: missing email shows &#039;Email is required&#039;" finished-at="2026-06-07T07:10:02 MYT" duration-ms="5627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyEmail -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:50:12 MYT" name="tearDown" finished-at="2026-05-31T20:50:12 MYT" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-06-07T07:10:02 MYT" name="tearDown" finished-at="2026-06-07T07:10:08 MYT" duration-ms="6648" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -161,15 +161,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:50:12 MYT" name="setUp" finished-at="2026-05-31T20:50:14 MYT" duration-ms="2204" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-06-07T07:10:08 MYT" name="setUp" finished-at="2026-06-07T07:10:14 MYT" duration-ms="5304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="emptyName()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:50:14 MYT" name="emptyName" description="REQ_IO020_11: missing name shows &#039;Name is required&#039;" finished-at="2026-05-31T20:50:16 MYT" duration-ms="1107" status="PASS">
+        <test-method signature="emptyName()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-06-07T07:10:14 MYT" name="emptyName" description="REQ_IO020_11: missing name shows &#039;Name is required&#039;" finished-at="2026-06-07T07:10:18 MYT" duration-ms="3990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyName -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:50:16 MYT" name="tearDown" finished-at="2026-05-31T20:50:16 MYT" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-06-07T07:10:18 MYT" name="tearDown" finished-at="2026-06-07T07:10:20 MYT" duration-ms="2160" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -180,15 +180,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:50:16 MYT" name="setUp" finished-at="2026-05-31T20:50:18 MYT" duration-ms="2282" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-06-07T07:10:20 MYT" name="setUp" finished-at="2026-06-07T07:10:25 MYT" duration-ms="5200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="emptyPassword()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:50:18 MYT" name="emptyPassword" description="REQ_IO020_10: missing password shows &#039;Password is required&#039;" finished-at="2026-05-31T20:50:19 MYT" duration-ms="1166" status="PASS">
+        <test-method signature="emptyPassword()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-06-07T07:10:25 MYT" name="emptyPassword" description="REQ_IO020_10: missing password shows &#039;Password is required&#039;" finished-at="2026-06-07T07:10:32 MYT" duration-ms="6688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyPassword -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:50:19 MYT" name="tearDown" finished-at="2026-05-31T20:50:19 MYT" duration-ms="292" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-06-07T07:10:32 MYT" name="tearDown" finished-at="2026-06-07T07:10:34 MYT" duration-ms="2799" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -199,15 +199,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:50:19 MYT" name="setUp" finished-at="2026-05-31T20:50:22 MYT" duration-ms="2506" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-06-07T07:10:34 MYT" name="setUp" finished-at="2026-06-07T07:10:59 MYT" duration-ms="24794" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sellerSignupHappyPath()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:50:22 MYT" name="sellerSignupHappyPath" description="REQ_F100_1: valid seller signup creates shop" finished-at="2026-05-31T20:50:24 MYT" duration-ms="1891" status="PASS">
+        <test-method signature="sellerSignupHappyPath()[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-06-07T07:10:59 MYT" name="sellerSignupHappyPath" description="REQ_F100_1: valid seller signup creates shop" finished-at="2026-06-07T07:11:06 MYT" duration-ms="6917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sellerSignupHappyPath -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-05-31T20:50:24 MYT" name="tearDown" finished-at="2026-05-31T20:50:24 MYT" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F1_SignUpTest@245b4bdc]" started-at="2026-06-07T07:11:06 MYT" name="tearDown" finished-at="2026-06-07T07:11:13 MYT" duration-ms="7133" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -220,17 +220,17 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F1_SignUpTest -->
     </test> <!-- auth-validation -->
-    <test started-at="2026-05-31T20:50:46 MYT" name="customer-flow" finished-at="2026-05-31T20:51:59 MYT" duration-ms="72260">
+    <test started-at="2026-06-07T07:13:01 MYT" name="customer-flow" finished-at="2026-06-07T07:15:53 MYT" duration-ms="171351">
       <class name="com.shopcart.tests.F5_AddToCartTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F5_AddToCartTest@235834f2]" started-at="2026-05-31T20:51:17 MYT" name="setUp" finished-at="2026-05-31T20:51:20 MYT" duration-ms="2199" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F5_AddToCartTest@235834f2]" started-at="2026-06-07T07:14:18 MYT" name="setUp" finished-at="2026-06-07T07:14:26 MYT" duration-ms="8200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addAsCustomer()[pri:0, instance:com.shopcart.tests.F5_AddToCartTest@235834f2]" started-at="2026-05-31T20:51:20 MYT" name="addAsCustomer" description="REQ_F500_1: logged-in customer can add product to cart" finished-at="2026-05-31T20:51:22 MYT" duration-ms="2060" status="PASS">
+        <test-method signature="addAsCustomer()[pri:0, instance:com.shopcart.tests.F5_AddToCartTest@235834f2]" started-at="2026-06-07T07:14:26 MYT" name="addAsCustomer" description="REQ_F500_1: logged-in customer can add product to cart" finished-at="2026-06-07T07:14:36 MYT" duration-ms="9939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAsCustomer -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F5_AddToCartTest@235834f2]" started-at="2026-05-31T20:51:22 MYT" name="tearDown" finished-at="2026-05-31T20:51:22 MYT" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F5_AddToCartTest@235834f2]" started-at="2026-06-07T07:14:36 MYT" name="tearDown" finished-at="2026-06-07T07:14:37 MYT" duration-ms="476" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -243,15 +243,15 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F5_AddToCartTest -->
       <class name="com.shopcart.tests.F3_SearchByNameTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@55182842]" started-at="2026-05-31T20:50:46 MYT" name="setUp" finished-at="2026-05-31T20:50:49 MYT" duration-ms="2167" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@55182842]" started-at="2026-06-07T07:13:01 MYT" name="setUp" finished-at="2026-06-07T07:13:13 MYT" duration-ms="12136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchGibberish()[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@55182842]" started-at="2026-05-31T20:50:49 MYT" name="searchGibberish" description="REQ_F300_1: gibberish search yields empty state" finished-at="2026-05-31T20:51:10 MYT" duration-ms="21473" status="PASS">
+        <test-method signature="searchGibberish()[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@55182842]" started-at="2026-06-07T07:13:13 MYT" name="searchGibberish" description="REQ_F300_1: gibberish search yields empty state" finished-at="2026-06-07T07:13:36 MYT" duration-ms="22932" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchGibberish -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@55182842]" started-at="2026-05-31T20:51:10 MYT" name="tearDown" finished-at="2026-05-31T20:51:10 MYT" duration-ms="285" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@55182842]" started-at="2026-06-07T07:13:36 MYT" name="tearDown" finished-at="2026-06-07T07:13:37 MYT" duration-ms="437" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -262,15 +262,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@55182842]" started-at="2026-05-31T20:51:10 MYT" name="setUp" finished-at="2026-05-31T20:51:13 MYT" duration-ms="2629" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@55182842]" started-at="2026-06-07T07:13:37 MYT" name="setUp" finished-at="2026-06-07T07:13:56 MYT" duration-ms="18772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchKnownProduct()[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@55182842]" started-at="2026-05-31T20:51:13 MYT" name="searchKnownProduct" description="REQ_F300_1: search returns matching product" finished-at="2026-05-31T20:51:14 MYT" duration-ms="863" status="PASS">
+        <test-method signature="searchKnownProduct()[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@55182842]" started-at="2026-06-07T07:13:56 MYT" name="searchKnownProduct" description="REQ_F300_1: search returns matching product" finished-at="2026-06-07T07:14:01 MYT" duration-ms="5191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchKnownProduct -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@55182842]" started-at="2026-05-31T20:51:14 MYT" name="tearDown" finished-at="2026-05-31T20:51:14 MYT" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F3_SearchByNameTest@55182842]" started-at="2026-06-07T07:14:01 MYT" name="tearDown" finished-at="2026-06-07T07:14:03 MYT" duration-ms="2701" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -283,19 +283,19 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F3_SearchByNameTest -->
       <class name="com.shopcart.tests.F6_AddShippingAddressTest">
-        <test-method is-config="true" signature="clearShippingData()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@5656be13]" started-at="2026-05-31T20:51:22 MYT" name="clearShippingData" finished-at="2026-05-31T20:51:22 MYT" duration-ms="117" status="PASS">
+        <test-method is-config="true" signature="clearShippingData()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@5656be13]" started-at="2026-06-07T07:14:37 MYT" name="clearShippingData" finished-at="2026-06-07T07:14:37 MYT" duration-ms="149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearShippingData -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@5656be13]" started-at="2026-05-31T20:51:22 MYT" name="setUp" finished-at="2026-05-31T20:51:24 MYT" duration-ms="2312" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@5656be13]" started-at="2026-06-07T07:14:37 MYT" name="setUp" finished-at="2026-06-07T07:14:43 MYT" duration-ms="6278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="emptyShippingShowsErrors()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@5656be13]" started-at="2026-05-31T20:51:24 MYT" name="emptyShippingShowsErrors" description="REQ_IO060_8..16: empty form shows required errors per field" finished-at="2026-05-31T20:51:26 MYT" duration-ms="1974" status="PASS">
+        <test-method signature="emptyShippingShowsErrors()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@5656be13]" started-at="2026-06-07T07:14:43 MYT" name="emptyShippingShowsErrors" description="REQ_IO060_8..16: empty form shows required errors per field" finished-at="2026-06-07T07:14:54 MYT" duration-ms="11005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyShippingShowsErrors -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@5656be13]" started-at="2026-05-31T20:51:26 MYT" name="tearDown" finished-at="2026-05-31T20:51:26 MYT" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@5656be13]" started-at="2026-06-07T07:14:54 MYT" name="tearDown" finished-at="2026-06-07T07:14:55 MYT" duration-ms="1065" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -306,15 +306,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@5656be13]" started-at="2026-05-31T20:51:26 MYT" name="setUp" finished-at="2026-05-31T20:51:29 MYT" duration-ms="2363" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@5656be13]" started-at="2026-06-07T07:14:55 MYT" name="setUp" finished-at="2026-06-07T07:14:59 MYT" duration-ms="4014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="shippingHappyPath()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@5656be13]" started-at="2026-05-31T20:51:29 MYT" name="shippingHappyPath" description="REQ_F600_1: full valid shipping form proceeds to next step" finished-at="2026-05-31T20:51:52 MYT" duration-ms="23578" status="PASS">
+        <test-method signature="shippingHappyPath()[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@5656be13]" started-at="2026-06-07T07:14:59 MYT" name="shippingHappyPath" description="REQ_F600_1: full valid shipping form proceeds to next step" finished-at="2026-06-07T07:15:32 MYT" duration-ms="32781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shippingHappyPath -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@5656be13]" started-at="2026-05-31T20:51:52 MYT" name="tearDown" finished-at="2026-05-31T20:51:53 MYT" duration-ms="267" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F6_AddShippingAddressTest@5656be13]" started-at="2026-06-07T07:15:32 MYT" name="tearDown" finished-at="2026-06-07T07:15:32 MYT" duration-ms="353" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -327,15 +327,15 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F6_AddShippingAddressTest -->
       <class name="com.shopcart.tests.F4_SearchByCategoryTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F4_SearchByCategoryTest@3270d194]" started-at="2026-05-31T20:51:14 MYT" name="setUp" finished-at="2026-05-31T20:51:16 MYT" duration-ms="2282" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F4_SearchByCategoryTest@3270d194]" started-at="2026-06-07T07:14:03 MYT" name="setUp" finished-at="2026-06-07T07:14:12 MYT" duration-ms="8175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="categoriesPopupOpens()[pri:0, instance:com.shopcart.tests.F4_SearchByCategoryTest@3270d194]" started-at="2026-05-31T20:51:16 MYT" name="categoriesPopupOpens" description="REQ_F400_1: Categories popup opens" finished-at="2026-05-31T20:51:17 MYT" duration-ms="846" status="PASS">
+        <test-method signature="categoriesPopupOpens()[pri:0, instance:com.shopcart.tests.F4_SearchByCategoryTest@3270d194]" started-at="2026-06-07T07:14:12 MYT" name="categoriesPopupOpens" description="REQ_F400_1: Categories popup opens" finished-at="2026-06-07T07:14:15 MYT" duration-ms="3243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- categoriesPopupOpens -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F4_SearchByCategoryTest@3270d194]" started-at="2026-05-31T20:51:17 MYT" name="tearDown" finished-at="2026-05-31T20:51:17 MYT" duration-ms="171" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F4_SearchByCategoryTest@3270d194]" started-at="2026-06-07T07:14:15 MYT" name="tearDown" finished-at="2026-06-07T07:14:18 MYT" duration-ms="3175" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -348,15 +348,15 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F4_SearchByCategoryTest -->
       <class name="com.shopcart.tests.F7_AddReviewRatingTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F7_AddReviewRatingTest@4218d6a3]" started-at="2026-05-31T20:51:53 MYT" name="setUp" finished-at="2026-05-31T20:51:55 MYT" duration-ms="2133" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F7_AddReviewRatingTest@4218d6a3]" started-at="2026-06-07T07:15:32 MYT" name="setUp" finished-at="2026-06-07T07:15:42 MYT" duration-ms="9780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addReviewHappyPath()[pri:0, instance:com.shopcart.tests.F7_AddReviewRatingTest@4218d6a3]" started-at="2026-05-31T20:51:55 MYT" name="addReviewHappyPath" description="REQ_F700_1: customer adds review + 5-star rating on owned order" finished-at="2026-05-31T20:51:58 MYT" duration-ms="3552" status="PASS">
+        <test-method signature="addReviewHappyPath()[pri:0, instance:com.shopcart.tests.F7_AddReviewRatingTest@4218d6a3]" started-at="2026-06-07T07:15:42 MYT" name="addReviewHappyPath" description="REQ_F700_1: customer adds review + 5-star rating on owned order" finished-at="2026-06-07T07:15:52 MYT" duration-ms="10175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addReviewHappyPath -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F7_AddReviewRatingTest@4218d6a3]" started-at="2026-05-31T20:51:58 MYT" name="tearDown" finished-at="2026-05-31T20:51:59 MYT" duration-ms="366" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F7_AddReviewRatingTest@4218d6a3]" started-at="2026-06-07T07:15:52 MYT" name="tearDown" finished-at="2026-06-07T07:15:53 MYT" duration-ms="348" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -369,17 +369,17 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F7_AddReviewRatingTest -->
     </test> <!-- customer-flow -->
-    <test started-at="2026-05-31T20:51:59 MYT" name="seller-flow" finished-at="2026-05-31T20:52:54 MYT" duration-ms="55792">
+    <test started-at="2026-06-07T07:15:53 MYT" name="seller-flow" finished-at="2026-06-07T07:18:26 MYT" duration-ms="153768">
       <class name="com.shopcart.tests.F12_DeleteCustomerReviewTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F12_DeleteCustomerReviewTest@5fe94a96]" started-at="2026-05-31T20:52:21 MYT" name="setUp" finished-at="2026-05-31T20:52:23 MYT" duration-ms="2142" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F12_DeleteCustomerReviewTest@5fe94a96]" started-at="2026-06-07T07:17:11 MYT" name="setUp" finished-at="2026-06-07T07:17:24 MYT" duration-ms="13379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="deleteReview()[pri:0, instance:com.shopcart.tests.F12_DeleteCustomerReviewTest@5fe94a96]" started-at="2026-05-31T20:52:23 MYT" name="deleteReview" description="REQ_F1100_1: seller removes a customer review from a product" finished-at="2026-05-31T20:52:46 MYT" duration-ms="22551" status="PASS">
+        <test-method signature="deleteReview()[pri:0, instance:com.shopcart.tests.F12_DeleteCustomerReviewTest@5fe94a96]" started-at="2026-06-07T07:17:24 MYT" name="deleteReview" description="REQ_F1100_1: seller removes a customer review from a product" finished-at="2026-06-07T07:17:50 MYT" duration-ms="26015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteReview -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F12_DeleteCustomerReviewTest@5fe94a96]" started-at="2026-05-31T20:52:46 MYT" name="tearDown" finished-at="2026-05-31T20:52:46 MYT" duration-ms="312" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F12_DeleteCustomerReviewTest@5fe94a96]" started-at="2026-06-07T07:17:50 MYT" name="tearDown" finished-at="2026-06-07T07:17:51 MYT" duration-ms="512" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -392,15 +392,15 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F12_DeleteCustomerReviewTest -->
       <class name="com.shopcart.tests.F9_DeleteProductTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F9_DeleteProductTest@33d512c1]" started-at="2026-05-31T20:52:07 MYT" name="setUp" finished-at="2026-05-31T20:52:10 MYT" duration-ms="2161" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F9_DeleteProductTest@33d512c1]" started-at="2026-06-07T07:16:23 MYT" name="setUp" finished-at="2026-06-07T07:16:27 MYT" duration-ms="4063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="deleteProduct()[pri:0, instance:com.shopcart.tests.F9_DeleteProductTest@33d512c1]" started-at="2026-05-31T20:52:10 MYT" name="deleteProduct" description="REQ_F900_1: seller deletes a product; removed from list" finished-at="2026-05-31T20:52:12 MYT" duration-ms="1990" status="PASS">
+        <test-method signature="deleteProduct()[pri:0, instance:com.shopcart.tests.F9_DeleteProductTest@33d512c1]" started-at="2026-06-07T07:16:27 MYT" name="deleteProduct" description="REQ_F900_1: seller deletes a product; removed from list" finished-at="2026-06-07T07:16:38 MYT" duration-ms="10294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteProduct -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F9_DeleteProductTest@33d512c1]" started-at="2026-05-31T20:52:12 MYT" name="tearDown" finished-at="2026-05-31T20:52:12 MYT" duration-ms="240" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F9_DeleteProductTest@33d512c1]" started-at="2026-06-07T07:16:38 MYT" name="tearDown" finished-at="2026-06-07T07:16:38 MYT" duration-ms="614" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -413,15 +413,15 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F9_DeleteProductTest -->
       <class name="com.shopcart.tests.F11_ViewProductsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F11_ViewProductsTest@639c2c1d]" started-at="2026-05-31T20:52:17 MYT" name="setUp" finished-at="2026-05-31T20:52:19 MYT" duration-ms="2208" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F11_ViewProductsTest@639c2c1d]" started-at="2026-06-07T07:16:52 MYT" name="setUp" finished-at="2026-06-07T07:17:05 MYT" duration-ms="12873" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="viewProducts()[pri:0, instance:com.shopcart.tests.F11_ViewProductsTest@639c2c1d]" started-at="2026-05-31T20:52:19 MYT" name="viewProducts" description="REQ_F1000_1: seller dashboard lists own products" finished-at="2026-05-31T20:52:21 MYT" duration-ms="1923" status="PASS">
+        <test-method signature="viewProducts()[pri:0, instance:com.shopcart.tests.F11_ViewProductsTest@639c2c1d]" started-at="2026-06-07T07:17:05 MYT" name="viewProducts" description="REQ_F1000_1: seller dashboard lists own products" finished-at="2026-06-07T07:17:10 MYT" duration-ms="4784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewProducts -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F11_ViewProductsTest@639c2c1d]" started-at="2026-05-31T20:52:21 MYT" name="tearDown" finished-at="2026-05-31T20:52:21 MYT" duration-ms="162" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F11_ViewProductsTest@639c2c1d]" started-at="2026-06-07T07:17:10 MYT" name="tearDown" finished-at="2026-06-07T07:17:11 MYT" duration-ms="858" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -434,15 +434,15 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F11_ViewProductsTest -->
       <class name="com.shopcart.tests.F14_ViewOutForDeliveryTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F14_ViewOutForDeliveryTest@765d7657]" started-at="2026-05-31T20:52:50 MYT" name="setUp" finished-at="2026-05-31T20:52:53 MYT" duration-ms="2302" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F14_ViewOutForDeliveryTest@765d7657]" started-at="2026-06-07T07:18:14 MYT" name="setUp" finished-at="2026-06-07T07:18:19 MYT" duration-ms="4490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="viewOutForDelivery()[pri:0, instance:com.shopcart.tests.F14_ViewOutForDeliveryTest@765d7657]" started-at="2026-05-31T20:52:53 MYT" name="viewOutForDelivery" description="REQ_F1300_1: seller views out-for-delivery products" finished-at="2026-05-31T20:52:54 MYT" duration-ms="1670" status="PASS">
+        <test-method signature="viewOutForDelivery()[pri:0, instance:com.shopcart.tests.F14_ViewOutForDeliveryTest@765d7657]" started-at="2026-06-07T07:18:19 MYT" name="viewOutForDelivery" description="REQ_F1300_1: seller views out-for-delivery products" finished-at="2026-06-07T07:18:25 MYT" duration-ms="6324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewOutForDelivery -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F14_ViewOutForDeliveryTest@765d7657]" started-at="2026-05-31T20:52:54 MYT" name="tearDown" finished-at="2026-05-31T20:52:54 MYT" duration-ms="213" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F14_ViewOutForDeliveryTest@765d7657]" started-at="2026-06-07T07:18:25 MYT" name="tearDown" finished-at="2026-06-07T07:18:26 MYT" duration-ms="1464" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -455,15 +455,15 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F14_ViewOutForDeliveryTest -->
       <class name="com.shopcart.tests.F13_ViewAddedToCartTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F13_ViewAddedToCartTest@443118b0]" started-at="2026-05-31T20:52:46 MYT" name="setUp" finished-at="2026-05-31T20:52:49 MYT" duration-ms="2296" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F13_ViewAddedToCartTest@443118b0]" started-at="2026-06-07T07:17:51 MYT" name="setUp" finished-at="2026-06-07T07:18:05 MYT" duration-ms="14206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="viewAddedToCart()[pri:0, instance:com.shopcart.tests.F13_ViewAddedToCartTest@443118b0]" started-at="2026-05-31T20:52:49 MYT" name="viewAddedToCart" description="REQ_F1200_1: seller views products customers added to carts" finished-at="2026-05-31T20:52:50 MYT" duration-ms="1594" status="PASS">
+        <test-method signature="viewAddedToCart()[pri:0, instance:com.shopcart.tests.F13_ViewAddedToCartTest@443118b0]" started-at="2026-06-07T07:18:05 MYT" name="viewAddedToCart" description="REQ_F1200_1: seller views products customers added to carts" finished-at="2026-06-07T07:18:14 MYT" duration-ms="8623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewAddedToCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F13_ViewAddedToCartTest@443118b0]" started-at="2026-05-31T20:52:50 MYT" name="tearDown" finished-at="2026-05-31T20:52:50 MYT" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F13_ViewAddedToCartTest@443118b0]" started-at="2026-06-07T07:18:14 MYT" name="tearDown" finished-at="2026-06-07T07:18:14 MYT" duration-ms="586" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -476,15 +476,15 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F13_ViewAddedToCartTest -->
       <class name="com.shopcart.tests.F10_EditProductTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F10_EditProductTest@515c6049]" started-at="2026-05-31T20:52:12 MYT" name="setUp" finished-at="2026-05-31T20:52:14 MYT" duration-ms="2440" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F10_EditProductTest@515c6049]" started-at="2026-06-07T07:16:38 MYT" name="setUp" finished-at="2026-06-07T07:16:43 MYT" duration-ms="4277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="editProduct()[pri:0, instance:com.shopcart.tests.F10_EditProductTest@515c6049]" started-at="2026-05-31T20:52:14 MYT" name="editProduct" description="REQ_IO0100_1: seller edits a product price and update persists" finished-at="2026-05-31T20:52:17 MYT" duration-ms="2346" status="PASS">
+        <test-method signature="editProduct()[pri:0, instance:com.shopcart.tests.F10_EditProductTest@515c6049]" started-at="2026-06-07T07:16:43 MYT" name="editProduct" description="REQ_IO0100_1: seller edits a product price and update persists" finished-at="2026-06-07T07:16:52 MYT" duration-ms="9227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editProduct -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F10_EditProductTest@515c6049]" started-at="2026-05-31T20:52:17 MYT" name="tearDown" finished-at="2026-05-31T20:52:17 MYT" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F10_EditProductTest@515c6049]" started-at="2026-06-07T07:16:52 MYT" name="tearDown" finished-at="2026-06-07T07:16:52 MYT" duration-ms="426" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -497,19 +497,19 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopcart.tests.F10_EditProductTest -->
       <class name="com.shopcart.tests.F8_AddProductTest">
-        <test-method is-config="true" signature="initReport()[pri:0, instance:com.shopcart.tests.F8_AddProductTest@397fbdb]" started-at="2026-05-31T20:50:02 MYT" name="initReport" finished-at="2026-05-31T20:50:02 MYT" duration-ms="362" status="PASS">
+        <test-method is-config="true" signature="initReport()[pri:0, instance:com.shopcart.tests.F8_AddProductTest@397fbdb]" started-at="2026-06-07T07:09:24 MYT" name="initReport" finished-at="2026-06-07T07:09:24 MYT" duration-ms="344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F8_AddProductTest@397fbdb]" started-at="2026-05-31T20:51:59 MYT" name="setUp" finished-at="2026-05-31T20:52:03 MYT" duration-ms="3898" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopcart.tests.F8_AddProductTest@397fbdb]" started-at="2026-06-07T07:15:53 MYT" name="setUp" finished-at="2026-06-07T07:15:57 MYT" duration-ms="4295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addProductHappyPath()[pri:0, instance:com.shopcart.tests.F8_AddProductTest@397fbdb]" started-at="2026-05-31T20:52:03 MYT" name="addProductHappyPath" description="REQ_F800_1: seller adds new product appears in list" finished-at="2026-05-31T20:52:07 MYT" duration-ms="4681" status="PASS">
+        <test-method signature="addProductHappyPath()[pri:0, instance:com.shopcart.tests.F8_AddProductTest@397fbdb]" started-at="2026-06-07T07:15:57 MYT" name="addProductHappyPath" description="REQ_F800_1: seller adds new product appears in list" finished-at="2026-06-07T07:16:23 MYT" duration-ms="26030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductHappyPath -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F8_AddProductTest@397fbdb]" started-at="2026-05-31T20:52:07 MYT" name="tearDown" finished-at="2026-05-31T20:52:07 MYT" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopcart.tests.F8_AddProductTest@397fbdb]" started-at="2026-06-07T07:16:23 MYT" name="tearDown" finished-at="2026-06-07T07:16:23 MYT" duration-ms="413" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -520,7 +520,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.shopcart.tests.F8_AddProductTest@397fbdb]" started-at="2026-05-31T20:52:54 MYT" name="flushReport" finished-at="2026-05-31T20:52:55 MYT" duration-ms="304" status="PASS">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.shopcart.tests.F8_AddProductTest@397fbdb]" started-at="2026-06-07T07:18:26 MYT" name="flushReport" finished-at="2026-06-07T07:18:27 MYT" duration-ms="428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->

@@ -25,23 +25,19 @@ public class RegisterPage extends BasePage {
     public RegisterPage openSeller()   { go("/Sellerregister"); return this; }
 
     public RegisterPage fillName(String v) {
-        WaitUtils.waitVisible(driver, userName).clear();
-        driver.findElement(userName).sendKeys(v);
+        clearAndType(userName, v);
         return this;
     }
     public RegisterPage fillShopName(String v) {
-        driver.findElement(shopName).clear();
-        driver.findElement(shopName).sendKeys(v);
+        clearAndType(shopName, v);
         return this;
     }
     public RegisterPage fillEmail(String v) {
-        driver.findElement(email).clear();
-        driver.findElement(email).sendKeys(v);
+        clearAndType(email, v);
         return this;
     }
     public RegisterPage fillPassword(String v) {
-        driver.findElement(password).clear();
-        driver.findElement(password).sendKeys(v);
+        clearAndType(password, v);
         return this;
     }
     public RegisterPage submit() {

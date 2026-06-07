@@ -1,8 +1,11 @@
 package com.shopcart.pages;
 
 import com.shopcart.base.ConfigReader;
-import org.openqa.selenium.JavascriptExecutor;
+import com.shopcart.utils.WaitUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public abstract class BasePage {
     protected final WebDriver driver;
@@ -10,17 +13,33 @@ public abstract class BasePage {
 
     protected BasePage(WebDriver driver) { this.driver = driver; }
 
-    /** Full page load — use only for initial app boot or public routes. */
-    public void go(String path) { driver.get(BASE_URL + path); }
+    /** Full page load. Auth is persisted in localStorage, so the session survives. */
+    public void go(String path) {
+        driver.get(BASE_URL + path);
+        settle();
+    }
 
-    /** SPA navigation — preserves Redux state by using pushState + popstate. */
+    /**
+     * Previously used history.pushState which React Router v6 ignores, so target
+     * pages never rendered. A full navigation works because login is kept in
+     * localStorage and Redux re-hydrates on load.
+     */
     public void navigateSPA(String path) {
-        ((JavascriptExecutor) driver).executeScript(
-            "window.history.pushState(null, '', arguments[0]); " +
-            "window.dispatchEvent(new Event('popstate'));", path);
-        try { Thread.sleep(300); } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-        }
+        driver.get(BASE_URL + path);
+        settle();
+    }
+
+    private void settle() {
+        try { Thread.sleep(800); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
+    }
+
+    /** Robust clear for React controlled inputs (Ctrl+A, Delete, then type). */
+    protected void clearAndType(By locator, String value) {
+        WebElement el = WaitUtils.waitVisible(driver, locator);
+        el.click();
+        el.sendKeys(Keys.chord(Keys.CONTROL, "a"));
+        el.sendKeys(Keys.DELETE);
+        el.sendKeys(value);
     }
 
     public String currentUrl() { return driver.getCurrentUrl(); }

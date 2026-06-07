@@ -3,6 +3,9 @@ package com.shopcart.pages;
 import com.shopcart.utils.WaitUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import java.time.Duration;
 
 public class SellerAddProductPage extends BasePage {
 
@@ -30,6 +33,13 @@ public class SellerAddProductPage extends BasePage {
 
     public SellerAddProductPage submit() {
         WaitUtils.waitClickable(driver, addBtn).click();
+        // Wait for backend POST to complete before caller navigates away
+        try {
+            new WebDriverWait(driver, Duration.ofSeconds(10))
+                    .until(ExpectedConditions.not(ExpectedConditions.urlContains("addproduct")));
+        } catch (Exception ignored) {
+            try { Thread.sleep(3000); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
+        }
         return this;
     }
 }

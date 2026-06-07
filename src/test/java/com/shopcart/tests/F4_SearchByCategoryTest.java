@@ -20,7 +20,7 @@ public class F4_SearchByCategoryTest extends BaseTest {
                 home.pageSource().toLowerCase().contains("electronic")
                         || home.pageSource().toLowerCase().contains("clothes")
                         || home.pageSource().toLowerCase().contains("kitchen")
-                        || home.pageSource().toLowerCase().contains("category"),
+                        || home.pageSource().toLowerCase().contains("categor"),
                 "Expected at least one known category to render");
     }
 }

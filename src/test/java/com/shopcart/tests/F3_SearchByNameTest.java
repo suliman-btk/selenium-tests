@@ -12,9 +12,9 @@ public class F3_SearchByNameTest extends BaseTest {
     public void searchKnownProduct() {
         startTest("REQ_F300_1 Search Known Product",
                 "Searching a real product name returns it in the result list");
-        HomePage home = new HomePage(driver).open().search("shoe");
+        HomePage home = new HomePage(driver).open().search("Selenium");
         // If seeded; tester adjusts term to a guaranteed-existing product
-        Assert.assertTrue(home.pageSource().toLowerCase().contains("shoe")
+        Assert.assertTrue(home.pageSource().toLowerCase().contains("selenium")
                 || home.pageSource().toLowerCase().contains("product"),
                 "Expected at least one product card to render");
     }
